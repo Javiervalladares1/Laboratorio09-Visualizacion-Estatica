@@ -53,5 +53,5 @@ meta = {'modelo':'Prophet','version_prophet':prophet.__version__,'intervalo_nomi
     'pandas':pd.__version__,'numpy':np.__version__,
     'prediccion_central':'Se conserva la predicción original del Lab 1. El reajuste para recuperar intervalos difiere menos de un ingreso y satisface la tolerancia relativa 1e-6.',
     'limites_no_negativos':True,'nota':'Intervalo predictivo nominal del modelo. No garantiza cobertura del 95 % en este corte. Prueba retrospectiva; no es una proyección posterior a junio de 2026.'}
-(DATA/'metadatos_intervalo.json').write_text(json.dumps(meta,ensure_ascii=False,indent=2)+'\n')
+(DATA/'metadatos_intervalo.json').write_text(json.dumps(meta,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 print(json.dumps(meta,ensure_ascii=False,indent=2), flush=True)

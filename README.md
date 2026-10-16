@@ -29,6 +29,17 @@ Detalle de los formatos y fuentes editables:
 
 Con Python 3.12 o posterior, instalar las dependencias de `requirements.txt` en un entorno virtual. Se requiere Arial o, como alternativa, Liberation Sans o DejaVu Sans. No se distribuyen archivos de fuentes comerciales.
 
+Instalación en PowerShell (Windows), desde la raíz del repositorio:
+
+```powershell
+py -3 -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+.\.venv\Scripts\python.exe scripts/crear_infografia.py
+.\.venv\Scripts\python.exe scripts/verificar_entrega.py
+```
+
+No hace falta activar el entorno ni cambiar la política de ejecución de PowerShell. El generador detecta Arial en las carpetas de fuentes de Windows. En macOS/Linux: `python3 -m venv .venv` y usar `.venv/bin/python` en los mismos comandos. Las rutas de datos y salidas se resuelven respecto del script.
+
 Desde esta carpeta:
 
 ```bash
@@ -39,12 +50,13 @@ python scripts/verificar_entrega.py
 Los intervalos ya están calculados. Solo si se necesita repetir ese ajuste:
 
 ```bash
+python -m pip install -r requirements-modelo.txt
 python scripts/recuperar_intervalos.py
 python scripts/crear_infografia.py
 python scripts/verificar_entrega.py
 ```
 
-`scripts/preparar_datos.py` sirve para volver a extraer los insumos desde la carpeta original del Laboratorio 1. Requiere conservar la ubicación de esta carpeta dentro de Lab1 y sus archivos originales en `outputs/lab1_final`.
+`scripts/preparar_datos.py --lab1 "RUTA/AL/LAB1"` permite extraer nuevamente los insumos desde `outputs/lab1_final` de otra copia del Laboratorio 1. Si faltan sus archivos originales, termina con un mensaje antes de sobrescribir datos. Para generar la infografía bastan los insumos agregados que ya contiene este repositorio; Prophet y CmdStanPy son opcionales.
 
 ## Créditos y colaboración
 

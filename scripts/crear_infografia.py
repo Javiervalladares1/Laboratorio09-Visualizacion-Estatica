@@ -9,6 +9,7 @@ from html import escape
 from zipfile import ZipFile, ZIP_DEFLATED
 import json
 import math
+import os
 import xml.etree.ElementTree as ET
 import numpy as np
 import pandas as pd
@@ -28,7 +29,10 @@ MUTED, GRID, PALE, INK = '#525866', '#E0E5E9', '#F2F5F6', '#182A36'
 ORANGE_PALE, WHITE = '#F8E9DE', '#FFFFFF'
 
 def register_fonts():
-    candidates = [ROOT/'fuentes', Path('/System/Library/Fonts/Supplemental'), Path('/usr/share/fonts/truetype/msttcorefonts')]
+    candidates = [ROOT/'fuentes',
+        Path(os.environ.get('WINDIR', 'C:/Windows'))/'Fonts',
+        Path(os.environ.get('LOCALAPPDATA', str(Path.home())))/'Microsoft/Windows/Fonts',
+        Path('/System/Library/Fonts/Supplemental'), Path('/usr/share/fonts/truetype/msttcorefonts')]
     for folder in candidates:
         regular = next((folder/n for n in ['Arial.ttf','arial.ttf'] if (folder/n).exists()),None)
         bold = next((folder/n for n in ['Arial Bold.ttf','arialbd.ttf'] if (folder/n).exists()),None)
@@ -56,7 +60,7 @@ def width(text,size=10,bold=False):
 
 class Artwork:
     def __init__(self,path,pagesize):
-        self.c=canvas.Canvas(str(path),pagesize=pagesize,pageCompression=1)
+        self.c=canvas.Canvas(str(path),pagesize=pagesize,pageCompression=1,invariant=1)
         self.c.setTitle('El turismo en Guatemala se mueve por temporadas y depende de sus vecinos')
         self.c.setSubject('Laboratorio 09 Visualización estática - datos académicos INGUAT IGM 2009 a junio 2026')
         self.c.setAuthor('Equipo del Laboratorio 1 - CC3084 UVG')
@@ -115,17 +119,17 @@ class Artwork:
         self.c.showPage();self.c.save()
         if svgpath:
             svgpath.write_text('\n'.join(self.svg+['</svg>']),encoding='utf-8')
-            (OUT/'verificacion_textos.json').write_text(json.dumps(self.text_records,ensure_ascii=False,indent=2)+'\n')
+            (OUT/'verificacion_textos.json').write_text(json.dumps(self.text_records,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 
 series=pd.read_csv(DATA/'serie_total_mensual.csv',parse_dates=['Fecha']).set_index('Fecha').Ingresos
 profile=pd.read_csv(DATA/'perfil_mensual_2009_2019.csv').set_index('Mes').Promedio_ingresos
 models=pd.read_csv(DATA/'modelos_total.csv').sort_values('RMSE')
 evidence=pd.read_csv(DATA/'evidencia_series.csv')
 pred=pd.read_csv(DATA/'pronostico_prophet_intervalo95.csv',parse_dates=['Fecha'])
-summary=json.loads((DATA/'resumen_lab1.json').read_text())
-meta=json.loads((DATA/'metadatos_intervalo.json').read_text())
+summary=json.loads((DATA/'resumen_lab1.json').read_text(encoding='utf-8'))
+meta=json.loads((DATA/'metadatos_intervalo.json').read_text(encoding='utf-8'))
 creditfile=ROOT/'creditos.json'
-credits=json.loads(creditfile.read_text()) if creditfile.exists() else {'autores':[],'grupo':''}
+credits=json.loads(creditfile.read_text(encoding='utf-8')) if creditfile.exists() else {'autores':[],'grupo':''}
 
 def section(a,n,title,y):
     a.text(M,y,n,12,TEAL,True)
