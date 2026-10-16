@@ -1,0 +1,4 @@
+# Opcional: solo para reajustar Prophet y recuperar los intervalos.
+-r requirements.txt
+prophet==1.2.1
+cmdstanpy==1.3.0
