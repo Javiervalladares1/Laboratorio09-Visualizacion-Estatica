@@ -1,0 +1,103 @@
+{
+  "filas_originales": 161036,
+  "filas_limpias": 161036,
+  "meses": 210,
+  "inicio": "2009-01-01",
+  "fin": "2026-06-01",
+  "train_meses": 147,
+  "test_meses": 63,
+  "top3_paises": [
+    "El Salvador",
+    "Guatemala",
+    "Estados Unidos de América"
+  ],
+  "top3_fronteras": [
+    "01 La Aurora",
+    "07 Valle Nuevo",
+    "09 San Cristóbal"
+  ],
+  "total_comparable": 46711912.88651752,
+  "caida_2020_vs_2019_pct": -74.35367468222354,
+  "participacion_terrestre_pct": 59.06898610609274,
+  "participacion_centroamerica_pct": 71.25362658772883,
+  "mediana_mejora_rmse_vs_naive_pct": 56.84217374452968,
+  "ganadores": [
+    {
+      "serie": "Frontera — 01 La Aurora",
+      "modelo": "Prophet",
+      "configuración": "mode=multiplicative, changepoint_prior_scale=0.01",
+      "n_prueba": 63,
+      "MAE": 20559.063471664136,
+      "RMSE": 24582.735213635966,
+      "sMAPE_%": 23.026208210258943,
+      "MASE": 1.352358546943073,
+      "mejora_RMSE_vs_naive_%": 69.00844709714698
+    },
+    {
+      "serie": "Frontera — 07 Valle Nuevo",
+      "modelo": "SARIMA seleccionado",
+      "configuración": "(1, 0, 0) x (0, 0, 1, 12)",
+      "n_prueba": 63,
+      "MAE": 11720.246638128161,
+      "RMSE": 16369.935451653224,
+      "sMAPE_%": 31.200020249519632,
+      "MASE": 0.7098542864364371,
+      "mejora_RMSE_vs_naive_%": 67.0363640845498
+    },
+    {
+      "serie": "Frontera — 09 San Cristóbal",
+      "modelo": "Prophet",
+      "configuración": "mode=multiplicative, changepoint_prior_scale=0.01",
+      "n_prueba": 63,
+      "MAE": 8250.390112603847,
+      "RMSE": 11092.207861738038,
+      "sMAPE_%": 43.01167185841261,
+      "MASE": 1.141639107224092,
+      "mejora_RMSE_vs_naive_%": 53.88339305165457
+    },
+    {
+      "serie": "País — El Salvador",
+      "modelo": "Prophet",
+      "configuración": "mode=additive, changepoint_prior_scale=0.01",
+      "n_prueba": 63,
+      "MAE": 39155.68939929282,
+      "RMSE": 44106.65983566503,
+      "sMAPE_%": 50.57743075163417,
+      "MASE": 2.3281808339562846,
+      "mejora_RMSE_vs_naive_%": 56.84217374452968
+    },
+    {
+      "serie": "País — Estados Unidos de América",
+      "modelo": "Prophet",
+      "configuración": "mode=additive, changepoint_prior_scale=0.01",
+      "n_prueba": 63,
+      "MAE": 20058.612348935378,
+      "RMSE": 22377.281446924975,
+      "sMAPE_%": 52.10924668150503,
+      "MASE": 3.842458380664019,
+      "mejora_RMSE_vs_naive_%": 48.832466811357946
+    },
+    {
+      "serie": "País — Guatemala",
+      "modelo": "SARIMA seleccionado",
+      "configuración": "(2, 0, 1) x (0, 0, 0, 12)",
+      "n_prueba": 21,
+      "MAE": 35983.131665011395,
+      "RMSE": 45164.316773155886,
+      "sMAPE_%": 45.28680929503046,
+      "MASE": 1.7022370507671523,
+      "mejora_RMSE_vs_naive_%": 42.957473913748245
+    },
+    {
+      "serie": "Total mensual — Turista + Excursionista",
+      "modelo": "Prophet",
+      "configuración": "mode=additive, changepoint_prior_scale=0.01",
+      "n_prueba": 63,
+      "MAE": 58032.59940990989,
+      "RMSE": 69294.01007887268,
+      "sMAPE_%": 28.025657310001094,
+      "MASE": 1.170997919177842,
+      "mejora_RMSE_vs_naive_%": 68.45452541571362
+    }
+  ]
+}

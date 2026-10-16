@@ -1,0 +1,14 @@
+{
+  "fuentes": {
+    "base_migracion_limpia.csv": "df600261b18d200b3fe749e7a544484af0ea7d1e93a14fcbb88fa263ccf8c33e",
+    "predicciones_modelos.csv": "2a9183b2bdc37170c3719b6d5a1612917be3d152b5d540f519b6b3bdc9404c5f",
+    "comparacion_modelos.csv": "45661360f8a81c8a569ba6d85248f420de46c682125ae756fc8f4d43814a8b9b",
+    "comparativo_evidencia.csv": "b53afe22840da3dbb8225640309a7b827725bbcadd240dbe11c3574f0c455219",
+    "ganadores_por_serie.csv": "481d428eb8d0bf8f772e6bd105a79471e641a404da7d7c64062bbf76dc25b6f9",
+    "cobertura_series.csv": "7b2647c03601aa0d9eba1c606c5bf1011833384878ab58b1698798a344142845"
+  },
+  "definicion": "Turista + Excursionista",
+  "cobertura": "2009-01 a 2026-06",
+  "estatus": "Uso académico. No son cifras oficiales.",
+  "derivacion_perfil": "Promedio por mes calendario, 2009-2019"
+}
