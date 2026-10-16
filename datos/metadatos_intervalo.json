@@ -1,0 +1,31 @@
+{
+  "modelo": "Prophet",
+  "version_prophet": "1.2.1",
+  "intervalo_nominal": 0.95,
+  "seed_numpy": 2026,
+  "uncertainty_samples": 2000,
+  "entrenamiento_inicio": "2009-01",
+  "entrenamiento_fin": "2021-03",
+  "prueba_inicio": "2021-04",
+  "prueba_fin": "2026-06",
+  "n_train": 147,
+  "n_test": 63,
+  "configuracion": {
+    "seasonality_mode": "additive",
+    "changepoint_prior_scale": 0.01,
+    "seasonality_prior_scale": 10.0,
+    "fourier_order": 6,
+    "period": 365.25
+  },
+  "diferencia_maxima_puntual_lab1": 0.09866848555975594,
+  "cobertura_observada_intervalo_prueba": 1.0,
+  "MAE": 58032.59940990989,
+  "RMSE": 69294.01007887268,
+  "MAE_reajuste": 58032.65136618784,
+  "RMSE_reajuste": 69294.03308976913,
+  "pandas": "2.2.3",
+  "numpy": "2.5.4",
+  "prediccion_central": "Se conserva la predicción original del Lab 1. El reajuste para recuperar intervalos difiere menos de un ingreso y satisface la tolerancia relativa 1e-6.",
+  "limites_no_negativos": true,
+  "nota": "Intervalo predictivo nominal del modelo. No garantiza cobertura del 95 % en este corte. Prueba retrospectiva; no es una proyección posterior a junio de 2026."
+}

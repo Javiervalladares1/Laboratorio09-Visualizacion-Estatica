@@ -1,0 +1,193 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2520" height="3564" viewBox="0 0 840 1188" role="img" aria-labelledby="title desc">
+<title id="title">Infografía sobre turismo en Guatemala de 2009 a junio de 2026</title>
+<desc id="desc">Datos académicos de visitantes, historia mensual, estacionalidad, comparación entre series, evaluación de modelos e intervalo nominal de Prophet del 95 por ciento.</desc>
+<rect x="0" y="0" width="840" height="1188" rx="0" fill="#FFFFFF" stroke="none"/>
+<text x="42.000" y="29" font-family="Arial,Arial,sans-serif" font-size="10" font-weight="700" fill="#006D77">GUATEMALA  /  INGRESOS DE VISITANTES</text>
+<text x="700.326" y="29" font-family="Arial,Arial,sans-serif" font-size="9.2" font-weight="400" fill="#525866">2009 A JUNIO DE 2026</text>
+<text x="42.000" y="75" font-family="Arial,Arial,sans-serif" font-size="36" font-weight="700" fill="#16324F">El turismo en Guatemala</text>
+<text x="42.000" y="111" font-family="Arial,Arial,sans-serif" font-size="26" font-weight="700" fill="#16324F">se mueve por temporadas y depende de sus vecinos</text>
+<text x="42.000" y="137" font-family="Arial,Arial,sans-serif" font-size="11.6" font-weight="400" fill="#182A36">17 años y medio de datos para planificar temporadas, mercados y capacidad.</text>
+<text x="42.000" y="155" font-family="Arial,Arial,sans-serif" font-size="9.2" font-weight="400" fill="#525866">Turista + Excursionista  |  210 meses  |  Ingresos registrados o estimados, no personas únicas</text>
+<rect x="42" y="171" width="369" height="59" rx="3" fill="#F2F5F6" stroke="none"/>
+<text x="55.000" y="210" font-family="Arial,Arial,sans-serif" font-size="30" font-weight="700" fill="#16324F">46,71 M</text>
+<text x="225.000" y="196" font-family="Arial,Arial,sans-serif" font-size="9.6" font-weight="700" fill="#182A36">ingresos acumulados</text>
+<text x="225.000" y="212" font-family="Arial,Arial,sans-serif" font-size="8.5" font-weight="400" fill="#525866">Ene 2009 a jun 2026</text>
+<rect x="429" y="171" width="369" height="59" rx="3" fill="#F2F5F6" stroke="none"/>
+<text x="442.000" y="210" font-family="Arial,Arial,sans-serif" font-size="30" font-weight="700" fill="#C05510">-74,4 %</text>
+<text x="612.000" y="196" font-family="Arial,Arial,sans-serif" font-size="9.6" font-weight="700" fill="#182A36">caída del volumen en 2020</text>
+<text x="612.000" y="212" font-family="Arial,Arial,sans-serif" font-size="8.5" font-weight="400" fill="#525866">Frente al año 2019</text>
+<rect x="42" y="238" width="369" height="59" rx="3" fill="#F2F5F6" stroke="none"/>
+<text x="55.000" y="277" font-family="Arial,Arial,sans-serif" font-size="30" font-weight="700" fill="#006D77">59,1 %</text>
+<text x="225.000" y="263" font-family="Arial,Arial,sans-serif" font-size="9.6" font-weight="700" fill="#182A36">ingresó por vía terrestre</text>
+<text x="225.000" y="279" font-family="Arial,Arial,sans-serif" font-size="8.5" font-weight="400" fill="#525866">Del acumulado comparable</text>
+<rect x="429" y="238" width="369" height="59" rx="3" fill="#F2F5F6" stroke="none"/>
+<text x="442.000" y="277" font-family="Arial,Arial,sans-serif" font-size="30" font-weight="700" fill="#16324F">71,3 %</text>
+<text x="612.000" y="263" font-family="Arial,Arial,sans-serif" font-size="9.6" font-weight="700" fill="#182A36">provino de Centroamérica</text>
+<text x="612.000" y="279" font-family="Arial,Arial,sans-serif" font-size="8.5" font-weight="400" fill="#525866">Del acumulado comparable</text>
+<text x="42.000" y="323" font-family="Arial,Arial,sans-serif" font-size="12" font-weight="700" fill="#006D77">01</text>
+<text x="70.000" y="323" font-family="Arial,Arial,sans-serif" font-size="13.8" font-weight="700" fill="#16324F">La pandemia interrumpió una trayectoria de crecimiento</text>
+<text x="42.000" y="343" font-family="Arial,Arial,sans-serif" font-size="10.3" font-weight="700" fill="#182A36">Evolución mensual del total comparable</text>
+<line x1="483" y1="340" x2="503" y2="340" stroke="#16324F" stroke-width="1.5"/>
+<text x="509.000" y="343" font-family="Arial,Arial,sans-serif" font-size="9.2" font-weight="400" fill="#16324F">Observado</text>
+<line x1="608" y1="340" x2="628" y2="340" stroke="#006D77" stroke-width="2"/>
+<text x="634.000" y="343" font-family="Arial,Arial,sans-serif" font-size="9.2" font-weight="400" fill="#006D77">Media móvil de 12 meses</text>
+<text x="42.000" y="361" font-family="Arial,Arial,sans-serif" font-size="8.4" font-weight="400" fill="#525866">Miles</text>
+<rect x="539.9856459330144" y="366" width="72.2440191387559" height="91" rx="0" fill="#F8E9DE" stroke="none"/>
+<line x1="79" y1="457.0" x2="798" y2="457.0" stroke="#E0E5E9" stroke-width="0.55"/>
+<text x="65.217" y="459.7" font-family="Arial,Arial,sans-serif" font-size="8.6" font-weight="400" fill="#525866">0</text>
+<line x1="79" y1="411.5" x2="798" y2="411.5" stroke="#E0E5E9" stroke-width="0.55"/>
+<text x="55.651" y="414.2" font-family="Arial,Arial,sans-serif" font-size="8.6" font-weight="400" fill="#525866">250</text>
+<line x1="79" y1="366.0" x2="798" y2="366.0" stroke="#E0E5E9" stroke-width="0.55"/>
+<text x="55.651" y="368.7" font-family="Arial,Arial,sans-serif" font-size="8.6" font-weight="400" fill="#525866">500</text>
+<line x1="79" y1="457" x2="798" y2="457" stroke="#B5BEC6" stroke-width="0.7"/>
+<polyline points="79.000,429.710 82.440,433.831 85.880,428.099 89.321,425.694 92.761,434.330 96.201,429.437 99.641,431.954 103.081,424.359 106.522,432.832 109.962,429.126 113.402,425.401 116.842,417.034 120.282,427.455 123.722,432.880 127.163,427.270 130.603,425.901 134.043,431.285 137.483,428.705 140.923,420.660 144.364,423.525 147.804,433.202 151.244,428.311 154.684,424.324 158.124,415.611 161.565,426.113 165.005,431.544 168.445,426.068 171.885,422.119 175.325,430.442 178.766,427.331 182.206,420.505 185.646,425.191 189.086,431.305 192.526,429.327 195.967,422.908 199.407,412.640 202.847,424.763 206.287,430.097 209.727,423.105 213.167,423.714 216.608,429.311 220.048,425.470 223.488,420.720 226.928,425.939 230.368,430.092 233.809,426.425 237.249,421.437 240.689,413.531 244.129,425.904 247.569,431.490 251.010,417.489 254.450,424.326 257.890,424.378 261.330,421.116 264.770,418.490 268.211,421.119 271.651,427.176 275.091,426.492 278.531,420.060 281.971,409.234 285.411,417.058 288.852,425.427 292.292,420.575 295.732,415.257 299.172,422.372 302.612,420.583 306.053,413.764 309.493,416.032 312.933,422.841 316.373,416.296 319.813,411.861 323.254,397.782 326.694,412.570 330.134,421.108 333.574,411.575 337.014,411.944 340.455,415.793 343.895,412.340 347.335,410.948 350.775,412.289 354.215,419.380 357.656,415.540 361.096,412.377 364.536,397.081 367.976,409.297 371.416,417.936 374.856,398.390 378.297,418.517 381.737,416.244 385.177,415.816 388.617,408.040 392.057,409.898 395.498,422.999 398.938,411.660 402.378,411.221 405.818,398.523 409.258,409.745 412.699,414.463 416.139,403.411 419.579,388.235 423.019,412.639 426.459,411.891 429.900,403.933 433.340,407.079 436.780,418.107 440.220,413.492 443.660,406.824 447.100,392.188 450.541,401.705 453.981,411.197 457.421,385.470 460.861,400.900 464.301,406.449 467.742,400.347 471.182,395.611 474.622,392.878 478.062,407.355 481.502,405.645 484.943,400.637 488.383,385.341 491.823,391.908 495.263,405.066 498.703,391.524 502.144,386.286 505.584,402.528 509.024,396.365 512.464,390.509 515.904,390.477 519.344,402.718 522.785,403.400 526.225,395.887 529.665,375.261 533.105,386.343 536.545,399.139 539.986,428.714 543.426,455.173 546.866,455.220 550.306,454.849 553.746,454.546 557.187,454.205 560.627,454.712 564.067,453.964 567.507,447.379 570.947,446.877 574.388,440.627 577.828,447.426 581.268,441.527 584.708,446.127 588.148,443.555 591.589,439.683 595.029,439.238 598.469,443.836 601.909,444.802 605.349,441.798 608.789,439.059 612.230,416.310 615.670,432.557 619.110,421.710 622.550,415.525 625.990,403.738 629.431,409.678 632.871,407.975 636.311,401.263 639.751,402.836 643.191,412.144 646.632,405.687 650.072,398.998 653.512,384.152 656.952,410.014 660.392,420.827 663.833,411.165 667.273,405.461 670.713,418.199 674.153,416.126 677.593,410.112 681.033,408.858 684.474,417.235 687.914,427.061 691.354,410.427 694.794,397.468 698.234,403.723 701.675,408.590 705.115,398.340 708.555,413.140 711.995,413.537 715.435,414.270 718.876,408.411 722.316,405.657 725.756,417.750 729.196,411.561 732.636,401.913 736.077,391.162 739.517,404.303 742.957,410.694 746.397,406.306 749.837,402.348 753.278,411.867 756.718,410.737 760.158,405.423 763.598,403.532 767.038,417.311 770.478,410.422 773.919,400.473 777.359,390.466 780.799,402.279 784.239,413.894 787.679,404.009 791.120,409.507 794.560,413.081 798.000,412.285" stroke="#16324F" stroke-width="1.25" fill="none" stroke-linejoin="round"/>
+<polyline points="116.842,428.484 120.282,428.296 123.722,428.217 127.163,428.148 130.603,428.165 134.043,427.911 137.483,427.850 140.923,426.909 144.364,426.839 147.804,426.870 151.244,426.802 154.684,426.713 158.124,426.594 161.565,426.482 165.005,426.371 168.445,426.271 171.885,425.955 175.325,425.885 178.766,425.771 182.206,425.758 185.646,425.897 189.086,425.739 192.526,425.823 195.967,425.705 199.407,425.458 202.847,425.345 206.287,425.225 209.727,424.978 213.167,425.111 216.608,425.016 220.048,424.861 223.488,424.879 226.928,424.942 230.368,424.840 233.809,424.599 237.249,424.476 240.689,424.550 244.129,424.645 247.569,424.761 251.010,424.293 254.450,424.345 257.890,423.933 261.330,423.571 264.770,423.385 268.211,422.983 271.651,422.740 275.091,422.746 278.531,422.631 281.971,422.273 285.411,421.536 288.852,421.030 292.292,421.288 295.732,420.532 299.172,420.365 302.612,420.320 306.053,419.927 309.493,419.503 312.933,419.141 316.373,418.292 319.813,417.608 323.254,416.654 326.694,416.280 330.134,415.920 333.574,415.170 337.014,414.894 340.455,414.346 343.895,413.659 347.335,413.424 350.775,413.112 354.215,412.824 357.656,412.761 361.096,412.804 364.536,412.745 367.976,412.473 371.416,412.208 374.856,411.110 378.297,411.657 381.737,411.695 385.177,411.985 388.617,411.742 392.057,411.543 395.498,411.845 398.938,411.521 402.378,411.425 405.818,411.545 409.258,411.582 412.699,411.293 416.139,411.711 419.579,409.188 423.019,408.888 426.459,408.560 429.900,408.218 433.340,407.983 436.780,407.576 440.220,407.728 443.660,407.362 447.100,406.834 450.541,406.164 453.981,405.892 457.421,404.397 460.861,405.452 464.301,404.936 467.742,403.974 471.182,403.281 474.622,402.097 478.062,401.201 481.502,400.547 484.943,400.032 488.383,399.461 491.823,398.645 495.263,398.134 498.703,398.639 502.144,397.421 505.584,397.094 509.024,396.762 512.464,396.337 515.904,396.137 519.344,395.750 522.785,395.563 526.225,395.168 529.665,394.328 533.105,393.864 536.545,393.370 539.986,396.469 543.426,402.210 546.866,406.601 550.306,411.474 553.746,416.811 557.187,422.121 560.627,426.454 564.067,430.668 567.507,434.959 570.947,440.927 574.388,445.450 577.828,449.474 581.268,450.542 584.708,449.788 588.148,448.816 591.589,447.552 595.029,446.277 598.469,445.413 601.909,444.587 605.349,443.573 608.789,442.880 612.230,440.332 615.670,439.660 619.110,437.517 622.550,435.350 625.990,431.818 629.431,428.994 632.871,426.352 636.311,423.188 639.751,419.771 643.191,417.049 646.632,414.040 650.072,410.702 653.512,408.022 656.952,406.143 660.392,406.070 663.833,405.706 667.273,405.850 670.713,406.560 674.153,407.239 677.593,407.977 681.033,408.479 684.474,408.903 687.914,410.684 691.354,411.637 694.794,412.746 698.234,412.222 701.675,411.202 705.115,410.133 708.555,410.773 711.995,410.385 715.435,410.230 718.876,410.088 722.316,409.822 725.756,409.864 729.196,408.573 732.636,407.863 736.077,407.338 739.517,407.386 742.957,407.561 746.397,408.225 749.837,407.326 753.278,407.187 756.718,406.892 760.158,406.643 763.598,406.466 767.038,406.430 770.478,406.335 773.919,406.215 777.359,406.157 780.799,405.988 784.239,406.255 787.679,406.064 791.120,406.660 794.560,406.761 798.000,406.890" stroke="#006D77" stroke-width="1.9" fill="none" stroke-linejoin="round"/>
+<text x="69.100" y="472" font-family="Arial,Arial,sans-serif" font-size="8.9" font-weight="400" fill="#525866">2009</text>
+<text x="234.230" y="472" font-family="Arial,Arial,sans-serif" font-size="8.9" font-weight="400" fill="#525866">2013</text>
+<text x="399.359" y="472" font-family="Arial,Arial,sans-serif" font-size="8.9" font-weight="400" fill="#525866">2017</text>
+<text x="523.206" y="472" font-family="Arial,Arial,sans-serif" font-size="8.9" font-weight="400" fill="#525866">2020</text>
+<text x="647.053" y="472" font-family="Arial,Arial,sans-serif" font-size="8.9" font-weight="400" fill="#525866">2023</text>
+<text x="770.900" y="472" font-family="Arial,Arial,sans-serif" font-size="8.9" font-weight="400" fill="#525866">2026</text>
+<line x1="656.9521531100479" y1="366" x2="656.9521531100479" y2="457" stroke="#525866" stroke-width="0.7" stroke-dasharray="2 2"/>
+<text x="559.398" y="360" font-family="Arial,Arial,sans-serif" font-size="8.5" font-weight="400" fill="#525866">2023: cambio de registro</text>
+<circle cx="529.6650717703349" cy="375.26123916896955" r="2.5" fill="#C05510"/>
+<line x1="529.6650717703349" y1="372.26123916896955" x2="504.66507177033486" y2="362.26123916896955" stroke="#C05510" stroke-width="0.7"/>
+<text x="429.732" y="361.26123916896955" font-family="Arial,Arial,sans-serif" font-size="8.8" font-weight="700" fill="#C05510">Dic 2019: 449 mil</text>
+<text x="42.000" y="491" font-family="Arial,Arial,sans-serif" font-size="9.4" font-weight="700" fill="#C05510">2020: colapso pandémico</text>
+<text x="284.000" y="491" font-family="Arial,Arial,sans-serif" font-size="9.4" font-weight="700" fill="#16324F">2022: recuperación del volumen</text>
+<text x="571.000" y="491" font-family="Arial,Arial,sans-serif" font-size="9.4" font-weight="700" fill="#16324F">2026: solo enero a junio</text>
+<text x="42.000" y="506" font-family="Arial,Arial,sans-serif" font-size="9.1" font-weight="400" fill="#525866">La suma comparable mejora la continuidad; el cambio metodológico de 2023 aún limita la comparación de niveles.</text>
+<text x="42.000" y="531" font-family="Arial,Arial,sans-serif" font-size="12" font-weight="700" fill="#006D77">02</text>
+<text x="70.000" y="531" font-family="Arial,Arial,sans-serif" font-size="13.8" font-weight="700" fill="#16324F">El calendario y el punto de entrada cambian la planificación</text>
+<text x="42.000" y="552" font-family="Arial,Arial,sans-serif" font-size="10.2" font-weight="700" fill="#182A36">Diciembre concentra el mayor promedio mensual</text>
+<text x="439.000" y="552" font-family="Arial,Arial,sans-serif" font-size="10.2" font-weight="700" fill="#182A36">Extremos entre las siete series analizadas</text>
+<line x1="79" y1="677.0" x2="413" y2="677.0" stroke="#E0E5E9" stroke-width="0.55"/>
+<text x="65.217" y="679.7" font-family="Arial,Arial,sans-serif" font-size="8.6" font-weight="400" fill="#525866">0</text>
+<line x1="79" y1="636.7142857142857" x2="413" y2="636.7142857142857" stroke="#E0E5E9" stroke-width="0.55"/>
+<text x="55.651" y="639.4142857142857" font-family="Arial,Arial,sans-serif" font-size="8.6" font-weight="400" fill="#525866">150</text>
+<line x1="79" y1="596.4285714285714" x2="413" y2="596.4285714285714" stroke="#E0E5E9" stroke-width="0.55"/>
+<text x="55.651" y="599.1285714285715" font-family="Arial,Arial,sans-serif" font-size="8.6" font-weight="400" fill="#525866">300</text>
+<line x1="79" y1="677" x2="413" y2="677" stroke="#B5BEC6" stroke-width="0.7"/>
+<text x="42.000" y="576" font-family="Arial,Arial,sans-serif" font-size="8.4" font-weight="400" fill="#525866">Miles</text>
+<rect x="83.0" y="616.5283348362844" width="19.833333333333332" height="60.47166516371559" rx="0" fill="#006D77" stroke="none"/>
+<text x="85.711" y="691" font-family="Arial,Arial,sans-serif" font-size="8.1" font-weight="400" fill="#525866">Ene</text>
+<rect x="110.83333333333333" y="627.1008273174685" width="19.833333333333332" height="49.89917268253148" rx="0" fill="#006D77" stroke="none"/>
+<text x="113.771" y="691" font-family="Arial,Arial,sans-serif" font-size="8.1" font-weight="400" fill="#525866">Feb</text>
+<rect x="138.66666666666666" y="610.7260290361403" width="19.833333333333332" height="66.27397096385968" rx="0" fill="#C05510" stroke="none"/>
+<text x="141.609" y="691" font-family="Arial,Arial,sans-serif" font-size="8.1" font-weight="400" fill="#525866">Mar</text>
+<text x="141.242" y="604.7260290361403" font-family="Arial,Arial,sans-serif" font-size="8.8" font-weight="700" fill="#C05510">247</text>
+<rect x="166.5" y="612.0562518210556" width="19.833333333333332" height="64.9437481789443" rx="0" fill="#006D77" stroke="none"/>
+<text x="170.114" y="691" font-family="Arial,Arial,sans-serif" font-size="8.1" font-weight="400" fill="#525866">Abr</text>
+<rect x="194.33333333333331" y="623.1744486174778" width="19.833333333333332" height="53.825551382522285" rx="0" fill="#006D77" stroke="none"/>
+<text x="196.599" y="691" font-family="Arial,Arial,sans-serif" font-size="8.1" font-weight="400" fill="#525866">May</text>
+<rect x="222.16666666666666" y="618.295399616953" width="19.833333333333332" height="58.70460038304702" rx="0" fill="#006D77" stroke="none"/>
+<text x="225.553" y="691" font-family="Arial,Arial,sans-serif" font-size="8.1" font-weight="400" fill="#525866">Jun</text>
+<rect x="250.0" y="611.0154977113364" width="19.833333333333332" height="65.9845022886636" rx="0" fill="#C05510" stroke="none"/>
+<text x="254.739" y="691" font-family="Arial,Arial,sans-serif" font-size="8.1" font-weight="400" fill="#525866">Jul</text>
+<text x="252.575" y="605.0154977113364" font-family="Arial,Arial,sans-serif" font-size="8.8" font-weight="700" fill="#C05510">246</text>
+<rect x="277.83333333333337" y="612.8466225894338" width="19.833333333333332" height="64.15337741056629" rx="0" fill="#006D77" stroke="none"/>
+<text x="280.544" y="691" font-family="Arial,Arial,sans-serif" font-size="8.1" font-weight="400" fill="#525866">Ago</text>
+<rect x="305.66666666666663" y="626.1575114544912" width="19.833333333333332" height="50.842488545508736" rx="0" fill="#006D77" stroke="none"/>
+<text x="308.377" y="691" font-family="Arial,Arial,sans-serif" font-size="8.1" font-weight="400" fill="#525866">Sep</text>
+<rect x="333.5" y="620.4838060055641" width="19.833333333333332" height="56.51619399443588" rx="0" fill="#006D77" stroke="none"/>
+<text x="337.116" y="691" font-family="Arial,Arial,sans-serif" font-size="8.1" font-weight="400" fill="#525866">Oct</text>
+<rect x="361.3333333333333" y="613.4036198545136" width="19.833333333333332" height="63.59638014548641" rx="0" fill="#006D77" stroke="none"/>
+<text x="364.048" y="691" font-family="Arial,Arial,sans-serif" font-size="8.1" font-weight="400" fill="#525866">Nov</text>
+<rect x="389.1666666666667" y="594.7956037883547" width="19.833333333333332" height="82.20439621164532" rx="0" fill="#C05510" stroke="none"/>
+<text x="393.234" y="691" font-family="Arial,Arial,sans-serif" font-size="8.1" font-weight="400" fill="#525866">Dic</text>
+<text x="391.742" y="588.7956037883547" font-family="Arial,Arial,sans-serif" font-size="8.8" font-weight="700" fill="#C05510">306</text>
+<text x="42.000" y="709" font-family="Arial,Arial,sans-serif" font-size="8.9" font-weight="400" fill="#525866">Promedio 2009-2019. Marzo/abril: Semana Santa;</text>
+<text x="42.000" y="722" font-family="Arial,Arial,sans-serif" font-size="8.9" font-weight="400" fill="#525866">julio: bono 14; diciembre: fin de año. Contexto, no causalidad.</text>
+<rect x="439" y="564" width="174" height="60" rx="2" fill="#F2F5F6" stroke="none"/>
+<text x="448.000" y="579" font-family="Arial,Arial,sans-serif" font-size="8.7" font-weight="400" fill="#525866">Mayor estacionalidad</text>
+<text x="448.000" y="598" font-family="Arial,Arial,sans-serif" font-size="12.6" font-weight="700" fill="#16324F">La Aurora</text>
+<text x="448.000" y="614" font-family="Arial,Arial,sans-serif" font-size="8.3" font-weight="700" fill="#006D77">Fuerza STL 0,547</text>
+<rect x="624" y="564" width="174" height="60" rx="2" fill="#F2F5F6" stroke="none"/>
+<text x="633.000" y="579" font-family="Arial,Arial,sans-serif" font-size="8.7" font-weight="400" fill="#525866">Mayor crecimiento*</text>
+<text x="633.000" y="598" font-family="Arial,Arial,sans-serif" font-size="12.6" font-weight="700" fill="#16324F">San Cristóbal</text>
+<text x="633.000" y="614" font-family="Arial,Arial,sans-serif" font-size="8.3" font-weight="700" fill="#006D77">13,31 % anualizado</text>
+<rect x="439" y="631" width="174" height="60" rx="2" fill="#F2F5F6" stroke="none"/>
+<text x="448.000" y="646" font-family="Arial,Arial,sans-serif" font-size="8.7" font-weight="400" fill="#525866">Mayor volatilidad</text>
+<text x="448.000" y="665" font-family="Arial,Arial,sans-serif" font-size="12.6" font-weight="700" fill="#16324F">El Salvador</text>
+<text x="448.000" y="681" font-family="Arial,Arial,sans-serif" font-size="8.3" font-weight="700" fill="#006D77">1,142 en cambios logarítmicos</text>
+<rect x="624" y="631" width="174" height="60" rx="2" fill="#F2F5F6" stroke="none"/>
+<text x="633.000" y="646" font-family="Arial,Arial,sans-serif" font-size="8.7" font-weight="400" fill="#525866">Mayor caída en 2020</text>
+<text x="633.000" y="665" font-family="Arial,Arial,sans-serif" font-size="12.6" font-weight="700" fill="#16324F">Valle Nuevo</text>
+<text x="633.000" y="681" font-family="Arial,Arial,sans-serif" font-size="8.3" font-weight="700" fill="#C05510">-80,7 % frente a 2019</text>
+<text x="439.000" y="709" font-family="Arial,Arial,sans-serif" font-size="8.5" font-weight="400" fill="#525866">*Tendencia anterior a 2020. STL: escala de 0 a 1.</text>
+<text x="439.000" y="722" font-family="Arial,Arial,sans-serif" font-size="8.5" font-weight="400" fill="#525866">Volatilidad: desviación de cambios mensuales de log(1+x).</text>
+<text x="42.000" y="748" font-family="Arial,Arial,sans-serif" font-size="12" font-weight="700" fill="#006D77">03</text>
+<text x="70.000" y="748" font-family="Arial,Arial,sans-serif" font-size="13.8" font-weight="700" fill="#16324F">Prophet reduce el error del total en 68,5 % frente a la referencia</text>
+<text x="42.000" y="769" font-family="Arial,Arial,sans-serif" font-size="9.5" font-weight="400" fill="#525866">Misma serie y mismos 63 meses de prueba para todos los modelos. Menor error es mejor.</text>
+<rect x="42" y="783" width="306" height="22" rx="0" fill="#16324F" stroke="none"/>
+<text x="50.000" y="798" font-family="Arial,Arial,sans-serif" font-size="9.3" font-weight="700" fill="#FFFFFF">Modelo</text>
+<text x="238.778" y="798" font-family="Arial,Arial,sans-serif" font-size="9.1" font-weight="700" fill="#FFFFFF">MAE</text>
+<text x="312.709" y="798" font-family="Arial,Arial,sans-serif" font-size="9.1" font-weight="700" fill="#FFFFFF">RMSE</text>
+<rect x="42" y="805" width="306" height="20" rx="0" fill="#E9F2F2" stroke="none"/>
+<text x="50.000" y="819" font-family="Arial,Arial,sans-serif" font-size="9.3" font-weight="700" fill="#006D77">Prophet</text>
+<text x="230.555" y="819" font-family="Arial,Arial,sans-serif" font-size="9.3" font-weight="700" fill="#006D77">58 033</text>
+<text x="310.555" y="819" font-family="Arial,Arial,sans-serif" font-size="9.3" font-weight="700" fill="#006D77">69 294</text>
+<rect x="42" y="825" width="306" height="20" rx="0" fill="#FFFFFF" stroke="none"/>
+<text x="50.000" y="839" font-family="Arial,Arial,sans-serif" font-size="9.3" font-weight="400" fill="#182A36">Red neuronal MLP</text>
+<text x="230.555" y="839" font-family="Arial,Arial,sans-serif" font-size="9.3" font-weight="400" fill="#182A36">92 801</text>
+<text x="305.383" y="839" font-family="Arial,Arial,sans-serif" font-size="9.3" font-weight="400" fill="#182A36">106 664</text>
+<rect x="42" y="845" width="306" height="20" rx="0" fill="#F2F5F6" stroke="none"/>
+<text x="50.000" y="859" font-family="Arial,Arial,sans-serif" font-size="9.3" font-weight="400" fill="#182A36">SARIMA</text>
+<text x="230.555" y="859" font-family="Arial,Arial,sans-serif" font-size="9.3" font-weight="400" fill="#182A36">99 204</text>
+<text x="305.383" y="859" font-family="Arial,Arial,sans-serif" font-size="9.3" font-weight="400" fill="#182A36">111 215</text>
+<rect x="42" y="865" width="306" height="20" rx="0" fill="#FFFFFF" stroke="none"/>
+<text x="50.000" y="879" font-family="Arial,Arial,sans-serif" font-size="9.3" font-weight="400" fill="#182A36">Suavizamiento simple</text>
+<text x="225.383" y="879" font-family="Arial,Arial,sans-serif" font-size="9.3" font-weight="400" fill="#182A36">129 464</text>
+<text x="305.383" y="879" font-family="Arial,Arial,sans-serif" font-size="9.3" font-weight="400" fill="#182A36">140 630</text>
+<rect x="42" y="885" width="306" height="20" rx="0" fill="#F2F5F6" stroke="none"/>
+<text x="50.000" y="899" font-family="Arial,Arial,sans-serif" font-size="9.3" font-weight="400" fill="#182A36">Holt-Winters</text>
+<text x="225.383" y="899" font-family="Arial,Arial,sans-serif" font-size="9.3" font-weight="400" fill="#182A36">164 531</text>
+<text x="305.383" y="899" font-family="Arial,Arial,sans-serif" font-size="9.3" font-weight="400" fill="#182A36">178 441</text>
+<rect x="42" y="905" width="306" height="20" rx="0" fill="#FFFFFF" stroke="none"/>
+<text x="50.000" y="919" font-family="Arial,Arial,sans-serif" font-size="9.3" font-weight="400" fill="#182A36">Seasonal naïve (referencia)</text>
+<text x="225.383" y="919" font-family="Arial,Arial,sans-serif" font-size="9.3" font-weight="400" fill="#182A36">207 322</text>
+<text x="305.383" y="919" font-family="Arial,Arial,sans-serif" font-size="9.3" font-weight="400" fill="#182A36">219 664</text>
+<text x="42.000" y="940" font-family="Arial,Arial,sans-serif" font-size="8.6" font-weight="400" fill="#525866">MAE y RMSE en ingresos por mes.</text>
+<text x="377.000" y="797" font-family="Arial,Arial,sans-serif" font-size="10.2" font-weight="700" fill="#182A36">Estimación de Prophet sobre el período de prueba</text>
+<line x1="377" y1="811" x2="391" y2="811" stroke="#16324F" stroke-width="1.4"/>
+<text x="396.000" y="814" font-family="Arial,Arial,sans-serif" font-size="8.8" font-weight="400" fill="#16324F">Observado</text>
+<line x1="467" y1="811" x2="481" y2="811" stroke="#C05510" stroke-width="1.5"/>
+<text x="486.000" y="814" font-family="Arial,Arial,sans-serif" font-size="8.8" font-weight="400" fill="#C05510">Estimación</text>
+<rect x="564" y="805" width="13" height="8" rx="0" fill="#F8E9DE" stroke="none"/>
+<text x="583.000" y="814" font-family="Arial,Arial,sans-serif" font-size="8.8" font-weight="400" fill="#525866">Intervalo nominal 95 %</text>
+<line x1="406" y1="922.0" x2="798" y2="922.0" stroke="#E0E5E9" stroke-width="0.55"/>
+<text x="392.217" y="924.7" font-family="Arial,Arial,sans-serif" font-size="8.6" font-weight="400" fill="#525866">0</text>
+<line x1="406" y1="878.0" x2="798" y2="878.0" stroke="#E0E5E9" stroke-width="0.55"/>
+<text x="382.651" y="880.7" font-family="Arial,Arial,sans-serif" font-size="8.6" font-weight="400" fill="#525866">250</text>
+<line x1="406" y1="834.0" x2="798" y2="834.0" stroke="#E0E5E9" stroke-width="0.55"/>
+<text x="382.651" y="836.7" font-family="Arial,Arial,sans-serif" font-size="8.6" font-weight="400" fill="#525866">500</text>
+<line x1="406" y1="922" x2="798" y2="922" stroke="#B5BEC6" stroke-width="0.7"/>
+<text x="377.000" y="829" font-family="Arial,Arial,sans-serif" font-size="8.3" font-weight="400" fill="#525866">Miles</text>
+<polygon points="406.000,848.378 412.323,853.917 418.645,852.137 424.968,847.806 431.290,847.300 437.613,856.447 443.935,853.162 450.258,846.500 456.581,836.550 462.903,849.586 469.226,853.008 475.548,846.256 481.871,847.460 488.194,856.902 494.516,853.244 500.839,847.392 507.161,848.336 513.484,854.868 519.806,853.165 526.129,848.049 532.452,834.981 538.774,847.773 545.097,854.167 551.419,846.816 557.742,849.671 564.065,853.215 570.387,850.182 576.710,846.144 583.032,848.269 589.355,855.132 595.677,852.079 602.000,848.084 608.323,837.398 614.645,846.937 620.968,855.196 627.290,846.785 633.613,848.907 639.935,854.015 646.258,851.842 652.581,845.955 658.903,849.051 665.226,856.245 671.548,853.351 677.871,847.857 684.194,838.635 690.516,846.582 696.839,855.034 703.161,849.317 709.484,847.252 715.806,854.544 722.129,851.602 728.452,847.877 734.774,848.432 741.097,856.094 747.419,851.180 753.742,847.450 760.065,840.206 766.387,848.547 772.710,854.243 779.032,847.940 785.355,846.563 791.677,854.491 798.000,852.002 798.000,916.564 791.677,922.000 785.355,912.059 779.032,911.250 772.710,918.717 766.387,914.817 760.065,901.800 753.742,912.902 747.419,919.762 741.097,921.679 734.774,914.364 728.452,911.589 722.129,916.713 715.806,920.278 709.484,915.044 703.161,913.499 696.839,918.943 690.516,912.839 684.194,902.078 677.871,914.156 671.548,918.738 665.226,919.621 658.903,914.543 652.581,911.643 646.258,917.432 639.935,921.291 633.613,914.448 627.290,912.695 620.968,920.380 614.645,913.358 608.323,903.610 602.000,913.302 595.677,917.214 589.355,921.204 583.032,913.331 576.710,914.082 570.387,916.433 564.065,921.564 557.742,914.619 551.419,913.857 545.097,918.746 538.774,911.961 532.452,902.563 526.129,913.527 519.806,917.583 513.484,922.000 507.161,914.283 500.839,912.528 494.516,918.758 488.194,921.755 481.871,912.622 475.548,915.885 469.226,921.979 462.903,912.101 456.581,901.993 450.258,912.147 443.935,920.595 437.613,921.853 431.290,914.310 424.968,913.729 418.645,916.699 412.323,921.701 406.000,913.054" stroke="none" stroke-width="1.4" fill="#F8E9DE" stroke-linejoin="round"/>
+<polyline points="406.000,911.485 412.323,908.998 418.645,905.254 424.968,904.823 431.290,909.270 437.613,910.204 443.935,907.299 450.258,904.650 456.581,882.652 462.903,898.363 469.226,887.873 475.548,881.892 481.871,870.494 488.194,876.238 494.516,874.592 500.839,868.101 507.161,869.622 513.484,878.622 519.806,872.379 526.129,865.910 532.452,851.553 538.774,876.563 545.097,887.020 551.419,877.676 557.742,872.160 564.065,884.478 570.387,882.474 576.710,876.658 583.032,875.446 589.355,883.546 595.677,893.048 602.000,876.963 608.323,864.431 614.645,870.479 620.968,875.186 627.290,865.273 633.613,879.586 639.935,879.970 646.258,880.679 652.581,875.012 658.903,872.350 665.226,884.044 671.548,878.059 677.871,868.729 684.194,858.332 690.516,871.040 696.839,877.221 703.161,872.977 709.484,869.149 715.806,878.355 722.129,877.263 728.452,872.124 734.774,870.295 741.097,883.620 747.419,876.958 753.742,867.337 760.065,857.659 766.387,869.083 772.710,880.315 779.032,870.756 785.355,876.073 791.677,879.529 798.000,878.759" stroke="#16324F" stroke-width="1.3" fill="none" stroke-linejoin="round"/>
+<polyline points="406.000,880.851 412.323,887.609 418.645,884.364 424.968,880.361 431.290,881.226 437.613,889.196 443.935,885.682 450.258,880.930 456.581,869.942 462.903,880.119 469.226,887.100 475.548,880.131 481.871,880.750 488.194,887.559 494.516,884.365 500.839,880.356 507.161,881.124 513.484,889.146 519.806,885.676 526.129,880.975 532.452,869.937 538.774,879.946 545.097,887.097 551.419,880.149 557.742,880.650 564.065,887.507 570.387,884.366 576.710,880.352 583.032,881.022 589.355,889.094 595.677,885.672 602.000,881.018 608.323,869.934 614.645,879.773 620.968,887.093 627.290,879.949 633.613,880.804 639.935,887.511 646.258,884.216 652.581,880.218 658.903,881.181 665.226,889.097 671.548,885.539 677.871,880.736 684.194,869.801 690.516,880.143 696.839,886.953 703.161,879.966 709.484,880.703 715.806,887.462 722.129,884.216 728.452,880.213 734.774,881.078 741.097,889.048 747.419,885.534 753.742,880.782 760.065,869.794 766.387,879.971 772.710,886.952 779.032,879.983 785.355,880.602 791.677,887.411 798.000,884.217" stroke="#C05510" stroke-width="1.7" fill="none" stroke-linejoin="round"/>
+<text x="406.000" y="939" font-family="Arial,Arial,sans-serif" font-size="8.6" font-weight="400" fill="#525866">Abr 2021</text>
+<text x="529.208" y="939" font-family="Arial,Arial,sans-serif" font-size="8.6" font-weight="400" fill="#525866">2023</text>
+<text x="680.950" y="939" font-family="Arial,Arial,sans-serif" font-size="8.6" font-weight="400" fill="#525866">2025</text>
+<text x="762.613" y="939" font-family="Arial,Arial,sans-serif" font-size="8.6" font-weight="400" fill="#525866">Jun 2026</text>
+<text x="42.000" y="959" font-family="Arial,Arial,sans-serif" font-size="8.9" font-weight="400" fill="#525866">Entrenamiento: ene 2009 a mar 2021. Prueba: abr 2021 a jun 2026. Evaluación retrospectiva, no proyección más allá de la base.</text>
+<text x="42.000" y="973" font-family="Arial,Arial,sans-serif" font-size="8.9" font-weight="400" fill="#525866">Prophet gana 5 de 7 series y SARIMA 2. El desempeño de este corte no garantiza el futuro ni anticipa todos los choques.</text>
+<text x="42.000" y="1000" font-family="Arial,Arial,sans-serif" font-size="12" font-weight="700" fill="#006D77">04</text>
+<text x="70.000" y="1000" font-family="Arial,Arial,sans-serif" font-size="13.8" font-weight="700" fill="#16324F">Cinco decisiones para INGUAT</text>
+<text x="42.000" y="1024" font-family="Arial,Arial,sans-serif" font-size="10" font-weight="700" fill="#16324F">Anticipar temporadas</text>
+<text x="42.000" y="1038.0" font-family="Arial,Arial,sans-serif" font-size="9.2" font-weight="400" fill="#525866">Reforzar atención y transporte antes de diciembre; revisar marzo y julio.</text>
+<text x="42.000" y="1062" font-family="Arial,Arial,sans-serif" font-size="10" font-weight="700" fill="#16324F">Coordinar la capacidad terrestre</text>
+<text x="42.000" y="1076.0" font-family="Arial,Arial,sans-serif" font-size="9.2" font-weight="400" fill="#525866">Priorizar coordinación en pasos terrestres: concentran 59,1 % del acumulado.</text>
+<text x="42.000" y="1100" font-family="Arial,Arial,sans-serif" font-size="10" font-weight="700" fill="#16324F">Preparar escenarios ante choques</text>
+<text x="42.000" y="1114.0" font-family="Arial,Arial,sans-serif" font-size="9.2" font-weight="400" fill="#525866">Acordar ajustes de capacidad y promoción frente a caídas como la de 2020.</text>
+<text x="439.000" y="1024" font-family="Arial,Arial,sans-serif" font-size="10" font-weight="700" fill="#16324F">Vigilar y diversificar mercados</text>
+<text x="439.000" y="1038.0" font-family="Arial,Arial,sans-serif" font-size="9.2" font-weight="400" fill="#525866">Monitorear Centroamérica (71,3 %) y evaluar la respuesta de otros mercados.</text>
+<text x="439.000" y="1062" font-family="Arial,Arial,sans-serif" font-size="10" font-weight="700" fill="#16324F">Actualizar modelos y catálogos</text>
+<text x="439.000" y="1076.0" font-family="Arial,Arial,sans-serif" font-size="9.2" font-weight="400" fill="#525866">Reevaluar por serie y documentar el cambio de registro de 2023.</text>
+<text x="439.000" y="1100.0" font-family="Arial,Arial,sans-serif" font-size="9.2" font-weight="700" fill="#006D77">2026 parcial y cambios de metodología deben acompañar cualquier lectura de</text>
+<text x="439.000" y="1111.6" font-family="Arial,Arial,sans-serif" font-size="9.2" font-weight="700" fill="#006D77">crecimiento.</text>
+<line x1="42" y1="1140" x2="798" y2="1140" stroke="#E0E5E9" stroke-width="0.8"/>
+<text x="42.000" y="1154" font-family="Arial,Arial,sans-serif" font-size="8.1" font-weight="400" fill="#525866">Fuente: Base de Migración 2009 a jun 2026, INGUAT/IGM. Uso exclusivamente académico; no son cifras oficiales.</text>
+<text x="42.000" y="1166" font-family="Arial,Arial,sans-serif" font-size="7.9" font-weight="400" fill="#525866">Elaboración con resultados del Laboratorio 1. Guatemala deja de reportarse como país desde 2023; no se interpreta como cero.</text>
+<text x="42.000" y="1178.0" font-family="Arial,Arial,sans-serif" font-size="8.1" font-weight="400" fill="#16324F">Créditos: Equipo del Laboratorio 1</text>
+</svg>

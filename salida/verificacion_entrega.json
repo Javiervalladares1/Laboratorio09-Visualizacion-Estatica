@@ -1,0 +1,31 @@
+{
+  "estado": "correcto",
+  "meses_total": 210,
+  "meses_prueba": 63,
+  "MAE": 58032.59940990989,
+  "RMSE": 69294.01007887268,
+  "reduccion_RMSE_vs_referencia_pct": 68.45452541571362,
+  "png_pixeles": [
+    2400,
+    3394
+  ],
+  "pdf": {
+    "A3": {
+      "paginas": 1,
+      "pulgadas": [
+        11.692913888888889,
+        16.535430555555553
+      ]
+    },
+    "11x17": {
+      "paginas": 1,
+      "pulgadas": [
+        11.0,
+        17.0
+      ]
+    }
+  },
+  "svg": "XML válido con texto y formas editables",
+  "revision_visual": "Realizada por inspección de la exportación final. Los controles automáticos no sustituyen esta revisión.",
+  "creditos_personales_completos": false
+}

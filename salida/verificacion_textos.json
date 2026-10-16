@@ -1,0 +1,940 @@
+[
+  {
+    "x": 42,
+    "y": 29,
+    "width": 208.90625,
+    "size": 10,
+    "text": "GUATEMALA  /  INGRESOS DE VISITANTES"
+  },
+  {
+    "x": 700.3263671875,
+    "y": 29,
+    "width": 97.6736328125,
+    "size": 9.2,
+    "text": "2009 A JUNIO DE 2026"
+  },
+  {
+    "x": 42,
+    "y": 75,
+    "width": 422.12109375000006,
+    "size": 36,
+    "text": "El turismo en Guatemala"
+  },
+  {
+    "x": 42,
+    "y": 111,
+    "width": 651.6884765625001,
+    "size": 26,
+    "text": "se mueve por temporadas y depende de sus vecinos"
+  },
+  {
+    "x": 42,
+    "y": 137,
+    "width": 399.14082031249995,
+    "size": 11.6,
+    "text": "17 años y medio de datos para planificar temporadas, mercados y capacidad."
+  },
+  {
+    "x": 42,
+    "y": 155,
+    "width": 383.9517578125,
+    "size": 9.2,
+    "text": "Turista + Excursionista  |  210 meses  |  Ingresos registrados o estimados, no personas únicas"
+  },
+  {
+    "x": 55,
+    "y": 210,
+    "width": 108.3984375,
+    "size": 30,
+    "text": "46,71 M"
+  },
+  {
+    "x": 225,
+    "y": 196,
+    "width": 98.69531249999999,
+    "size": 9.6,
+    "text": "ingresos acumulados"
+  },
+  {
+    "x": 225,
+    "y": 212,
+    "width": 78.458984375,
+    "size": 8.5,
+    "text": "Ene 2009 a jun 2026"
+  },
+  {
+    "x": 442,
+    "y": 210,
+    "width": 103.388671875,
+    "size": 30,
+    "text": "-74,4 %"
+  },
+  {
+    "x": 612,
+    "y": 196,
+    "width": 121.12031249999998,
+    "size": 9.6,
+    "text": "caída del volumen en 2020"
+  },
+  {
+    "x": 612,
+    "y": 212,
+    "width": 71.357666015625,
+    "size": 8.5,
+    "text": "Frente al año 2019"
+  },
+  {
+    "x": 55,
+    "y": 277,
+    "width": 93.3984375,
+    "size": 30,
+    "text": "59,1 %"
+  },
+  {
+    "x": 225,
+    "y": 263,
+    "width": 110.44218749999999,
+    "size": 9.6,
+    "text": "ingresó por vía terrestre"
+  },
+  {
+    "x": 225,
+    "y": 279,
+    "width": 103.47338867187501,
+    "size": 8.5,
+    "text": "Del acumulado comparable"
+  },
+  {
+    "x": 442,
+    "y": 277,
+    "width": 93.3984375,
+    "size": 30,
+    "text": "71,3 %"
+  },
+  {
+    "x": 612,
+    "y": 263,
+    "width": 118.96406249999998,
+    "size": 9.6,
+    "text": "provino de Centroamérica"
+  },
+  {
+    "x": 612,
+    "y": 279,
+    "width": 103.47338867187501,
+    "size": 8.5,
+    "text": "Del acumulado comparable"
+  },
+  {
+    "x": 42,
+    "y": 323,
+    "width": 13.34765625,
+    "size": 12,
+    "text": "01"
+  },
+  {
+    "x": 70,
+    "y": 323,
+    "width": 368.86699218750005,
+    "size": 13.8,
+    "text": "La pandemia interrumpió una trayectoria de crecimiento"
+  },
+  {
+    "x": 42,
+    "y": 343,
+    "width": 196.891943359375,
+    "size": 10.3,
+    "text": "Evolución mensual del total comparable"
+  },
+  {
+    "x": 509,
+    "y": 343,
+    "width": 45.002734374999996,
+    "size": 9.2,
+    "text": "Observado"
+  },
+  {
+    "x": 634,
+    "y": 343,
+    "width": 104.31308593749999,
+    "size": 9.2,
+    "text": "Media móvil de 12 meses"
+  },
+  {
+    "x": 42,
+    "y": 361,
+    "width": 19.601367187500003,
+    "size": 8.4,
+    "text": "Miles"
+  },
+  {
+    "x": 65.21708984375,
+    "y": 459.7,
+    "width": 4.78291015625,
+    "size": 8.6,
+    "text": "0"
+  },
+  {
+    "x": 55.65126953125,
+    "y": 414.2,
+    "width": 14.34873046875,
+    "size": 8.6,
+    "text": "250"
+  },
+  {
+    "x": 55.65126953125,
+    "y": 368.7,
+    "width": 14.34873046875,
+    "size": 8.6,
+    "text": "500"
+  },
+  {
+    "x": 69.10048828125,
+    "y": 472,
+    "width": 19.7990234375,
+    "size": 8.9,
+    "text": "2009"
+  },
+  {
+    "x": 234.2296748841208,
+    "y": 472,
+    "width": 19.7990234375,
+    "size": 8.9,
+    "text": "2013"
+  },
+  {
+    "x": 399.35886148699166,
+    "y": 472,
+    "width": 19.7990234375,
+    "size": 8.9,
+    "text": "2017"
+  },
+  {
+    "x": 523.2057514391448,
+    "y": 472,
+    "width": 19.7990234375,
+    "size": 8.9,
+    "text": "2020"
+  },
+  {
+    "x": 647.0526413912979,
+    "y": 472,
+    "width": 19.7990234375,
+    "size": 8.9,
+    "text": "2023"
+  },
+  {
+    "x": 770.899531343451,
+    "y": 472,
+    "width": 19.7990234375,
+    "size": 8.9,
+    "text": "2026"
+  },
+  {
+    "x": 559.3981980319229,
+    "y": 360,
+    "width": 93.553955078125,
+    "size": 8.5,
+    "text": "2023: cambio de registro"
+  },
+  {
+    "x": 429.73225927033485,
+    "y": 361.26123916896955,
+    "width": 70.93281250000001,
+    "size": 8.8,
+    "text": "Dic 2019: 449 mil"
+  },
+  {
+    "x": 42,
+    "y": 491,
+    "width": 114.40644531250001,
+    "size": 9.4,
+    "text": "2020: colapso pandémico"
+  },
+  {
+    "x": 284,
+    "y": 491,
+    "width": 143.14345703125,
+    "size": 9.4,
+    "text": "2022: recuperación del volumen"
+  },
+  {
+    "x": 571,
+    "y": 491,
+    "width": 107.08564453125,
+    "size": 9.4,
+    "text": "2026: solo enero a junio"
+  },
+  {
+    "x": 42,
+    "y": 506,
+    "width": 461.838330078125,
+    "size": 9.1,
+    "text": "La suma comparable mejora la continuidad; el cambio metodológico de 2023 aún limita la comparación de niveles."
+  },
+  {
+    "x": 42,
+    "y": 531,
+    "width": 13.34765625,
+    "size": 12,
+    "text": "02"
+  },
+  {
+    "x": 70,
+    "y": 531,
+    "width": 391.871484375,
+    "size": 13.8,
+    "text": "El calendario y el punto de entrada cambian la planificación"
+  },
+  {
+    "x": 42,
+    "y": 552,
+    "width": 239.21191406249997,
+    "size": 10.2,
+    "text": "Diciembre concentra el mayor promedio mensual"
+  },
+  {
+    "x": 439,
+    "y": 552,
+    "width": 204.11455078125,
+    "size": 10.2,
+    "text": "Extremos entre las siete series analizadas"
+  },
+  {
+    "x": 65.21708984375,
+    "y": 679.7,
+    "width": 4.78291015625,
+    "size": 8.6,
+    "text": "0"
+  },
+  {
+    "x": 55.65126953125,
+    "y": 639.4142857142857,
+    "width": 14.34873046875,
+    "size": 8.6,
+    "text": "150"
+  },
+  {
+    "x": 55.65126953125,
+    "y": 599.1285714285715,
+    "width": 14.34873046875,
+    "size": 8.6,
+    "text": "300"
+  },
+  {
+    "x": 42,
+    "y": 576,
+    "width": 19.601367187500003,
+    "size": 8.4,
+    "text": "Miles"
+  },
+  {
+    "x": 85.71051432291667,
+    "y": 691,
+    "width": 14.412304687499999,
+    "size": 8.1,
+    "text": "Ene"
+  },
+  {
+    "x": 113.7712646484375,
+    "y": 691,
+    "width": 13.957470703124999,
+    "size": 8.1,
+    "text": "Feb"
+  },
+  {
+    "x": 141.60855305989583,
+    "y": 691,
+    "width": 13.949560546874999,
+    "size": 8.1,
+    "text": "Mar"
+  },
+  {
+    "x": 141.24212239583332,
+    "y": 604.7260290361403,
+    "width": 14.682421875000001,
+    "size": 8.8,
+    "text": "247"
+  },
+  {
+    "x": 170.11424967447917,
+    "y": 691,
+    "width": 12.604833984374999,
+    "size": 8.1,
+    "text": "Abr"
+  },
+  {
+    "x": 196.59890136718747,
+    "y": 691,
+    "width": 15.302197265624999,
+    "size": 8.1,
+    "text": "May"
+  },
+  {
+    "x": 225.55349934895833,
+    "y": 691,
+    "width": 13.059667968749999,
+    "size": 8.1,
+    "text": "Jun"
+  },
+  {
+    "x": 254.73946940104167,
+    "y": 691,
+    "width": 10.35439453125,
+    "size": 8.1,
+    "text": "Jul"
+  },
+  {
+    "x": 252.5754557291667,
+    "y": 605.0154977113364,
+    "width": 14.682421875000001,
+    "size": 8.8,
+    "text": "246"
+  },
+  {
+    "x": 280.5438476562501,
+    "y": 691,
+    "width": 14.412304687499999,
+    "size": 8.1,
+    "text": "Ago"
+  },
+  {
+    "x": 308.37718098958334,
+    "y": 691,
+    "width": 14.412304687499999,
+    "size": 8.1,
+    "text": "Sep"
+  },
+  {
+    "x": 337.11622721354166,
+    "y": 691,
+    "width": 12.60087890625,
+    "size": 8.1,
+    "text": "Oct"
+  },
+  {
+    "x": 364.047802734375,
+    "y": 691,
+    "width": 14.404394531249999,
+    "size": 8.1,
+    "text": "Nov"
+  },
+  {
+    "x": 393.23377278645836,
+    "y": 691,
+    "width": 11.69912109375,
+    "size": 8.1,
+    "text": "Dic"
+  },
+  {
+    "x": 391.74212239583335,
+    "y": 588.7956037883547,
+    "width": 14.682421875000001,
+    "size": 8.8,
+    "text": "306"
+  },
+  {
+    "x": 42,
+    "y": 709,
+    "width": 198.385693359375,
+    "size": 8.9,
+    "text": "Promedio 2009-2019. Marzo/abril: Semana Santa;"
+  },
+  {
+    "x": 42,
+    "y": 722,
+    "width": 243.424560546875,
+    "size": 8.9,
+    "text": "julio: bono 14; diciembre: fin de año. Contexto, no causalidad."
+  },
+  {
+    "x": 448,
+    "y": 579,
+    "width": 82.21245117187499,
+    "size": 8.7,
+    "text": "Mayor estacionalidad"
+  },
+  {
+    "x": 448,
+    "y": 598,
+    "width": 59.51162109375,
+    "size": 12.6,
+    "text": "La Aurora"
+  },
+  {
+    "x": 448,
+    "y": 614,
+    "width": 67.8103515625,
+    "size": 8.3,
+    "text": "Fuerza STL 0,547"
+  },
+  {
+    "x": 633,
+    "y": 579,
+    "width": 74.455517578125,
+    "size": 8.7,
+    "text": "Mayor crecimiento*"
+  },
+  {
+    "x": 633,
+    "y": 598,
+    "width": 81.21708984375,
+    "size": 12.6,
+    "text": "San Cristóbal"
+  },
+  {
+    "x": 633,
+    "y": 614,
+    "width": 75.652392578125,
+    "size": 8.3,
+    "text": "13,31 % anualizado"
+  },
+  {
+    "x": 448,
+    "y": 646,
+    "width": 65.279736328125,
+    "size": 8.7,
+    "text": "Mayor volatilidad"
+  },
+  {
+    "x": 448,
+    "y": 665,
+    "width": 68.62939453125,
+    "size": 12.6,
+    "text": "El Salvador"
+  },
+  {
+    "x": 448,
+    "y": 681,
+    "width": 120.3986328125,
+    "size": 8.3,
+    "text": "1,142 en cambios logarítmicos"
+  },
+  {
+    "x": 633,
+    "y": 646,
+    "width": 81.73666992187499,
+    "size": 8.7,
+    "text": "Mayor caída en 2020"
+  },
+  {
+    "x": 633,
+    "y": 665,
+    "width": 71.4287109375,
+    "size": 12.6,
+    "text": "Valle Nuevo"
+  },
+  {
+    "x": 633,
+    "y": 681,
+    "width": 81.66259765625,
+    "size": 8.3,
+    "text": "-80,7 % frente a 2019"
+  },
+  {
+    "x": 439,
+    "y": 709,
+    "width": 187.593505859375,
+    "size": 8.5,
+    "text": "*Tendencia anterior a 2020. STL: escala de 0 a 1."
+  },
+  {
+    "x": 439,
+    "y": 722,
+    "width": 220.88793945312503,
+    "size": 8.5,
+    "text": "Volatilidad: desviación de cambios mensuales de log(1+x)."
+  },
+  {
+    "x": 42,
+    "y": 748,
+    "width": 13.34765625,
+    "size": 12,
+    "text": "03"
+  },
+  {
+    "x": 70,
+    "y": 748,
+    "width": 414.92314453125005,
+    "size": 13.8,
+    "text": "Prophet reduce el error del total en 68,5 % frente a la referencia"
+  },
+  {
+    "x": 42,
+    "y": 769,
+    "width": 380.67724609375,
+    "size": 9.5,
+    "text": "Misma serie y mismos 63 meses de prueba para todos los modelos. Menor error es mejor."
+  },
+  {
+    "x": 50,
+    "y": 798,
+    "width": 32.545458984375,
+    "size": 9.3,
+    "text": "Modelo"
+  },
+  {
+    "x": 238.778271484375,
+    "y": 798,
+    "width": 20.221728515625,
+    "size": 9.1,
+    "text": "MAE"
+  },
+  {
+    "x": 312.708642578125,
+    "y": 798,
+    "width": 26.291357421875002,
+    "size": 9.1,
+    "text": "RMSE"
+  },
+  {
+    "x": 50,
+    "y": 819,
+    "width": 35.133837890625,
+    "size": 9.3,
+    "text": "Prophet"
+  },
+  {
+    "x": 230.555078125,
+    "y": 819,
+    "width": 28.444921875000002,
+    "size": 9.3,
+    "text": "58 033"
+  },
+  {
+    "x": 310.555078125,
+    "y": 819,
+    "width": 28.444921875000002,
+    "size": 9.3,
+    "text": "69 294"
+  },
+  {
+    "x": 50,
+    "y": 839,
+    "width": 77.546923828125,
+    "size": 9.3,
+    "text": "Red neuronal MLP"
+  },
+  {
+    "x": 230.555078125,
+    "y": 839,
+    "width": 28.444921875000002,
+    "size": 9.3,
+    "text": "92 801"
+  },
+  {
+    "x": 305.382861328125,
+    "y": 839,
+    "width": 33.617138671875004,
+    "size": 9.3,
+    "text": "106 664"
+  },
+  {
+    "x": 50,
+    "y": 859,
+    "width": 35.6560546875,
+    "size": 9.3,
+    "text": "SARIMA"
+  },
+  {
+    "x": 230.555078125,
+    "y": 859,
+    "width": 28.444921875000002,
+    "size": 9.3,
+    "text": "99 204"
+  },
+  {
+    "x": 305.382861328125,
+    "y": 859,
+    "width": 33.617138671875004,
+    "size": 9.3,
+    "text": "111 215"
+  },
+  {
+    "x": 50,
+    "y": 879,
+    "width": 90.45703125000001,
+    "size": 9.3,
+    "text": "Suavizamiento simple"
+  },
+  {
+    "x": 225.382861328125,
+    "y": 879,
+    "width": 33.617138671875004,
+    "size": 9.3,
+    "text": "129 464"
+  },
+  {
+    "x": 305.382861328125,
+    "y": 879,
+    "width": 33.617138671875004,
+    "size": 9.3,
+    "text": "140 630"
+  },
+  {
+    "x": 50,
+    "y": 899,
+    "width": 51.15454101562501,
+    "size": 9.3,
+    "text": "Holt-Winters"
+  },
+  {
+    "x": 225.382861328125,
+    "y": 899,
+    "width": 33.617138671875004,
+    "size": 9.3,
+    "text": "164 531"
+  },
+  {
+    "x": 305.382861328125,
+    "y": 899,
+    "width": 33.617138671875004,
+    "size": 9.3,
+    "text": "178 441"
+  },
+  {
+    "x": 50,
+    "y": 919,
+    "width": 114.247412109375,
+    "size": 9.3,
+    "text": "Seasonal naïve (referencia)"
+  },
+  {
+    "x": 225.382861328125,
+    "y": 919,
+    "width": 33.617138671875004,
+    "size": 9.3,
+    "text": "207 322"
+  },
+  {
+    "x": 305.382861328125,
+    "y": 919,
+    "width": 33.617138671875004,
+    "size": 9.3,
+    "text": "219 664"
+  },
+  {
+    "x": 42,
+    "y": 940,
+    "width": 135.2568359375,
+    "size": 8.6,
+    "text": "MAE y RMSE en ingresos por mes."
+  },
+  {
+    "x": 377,
+    "y": 797,
+    "width": 244.28203125,
+    "size": 10.2,
+    "text": "Estimación de Prophet sobre el período de prueba"
+  },
+  {
+    "x": 396,
+    "y": 814,
+    "width": 43.046093750000004,
+    "size": 8.8,
+    "text": "Observado"
+  },
+  {
+    "x": 486,
+    "y": 814,
+    "width": 43.0375,
+    "size": 8.8,
+    "text": "Estimación"
+  },
+  {
+    "x": 583,
+    "y": 814,
+    "width": 89.51679687500001,
+    "size": 8.8,
+    "text": "Intervalo nominal 95 %"
+  },
+  {
+    "x": 392.21708984375,
+    "y": 924.7,
+    "width": 4.78291015625,
+    "size": 8.6,
+    "text": "0"
+  },
+  {
+    "x": 382.65126953125,
+    "y": 880.7,
+    "width": 14.34873046875,
+    "size": 8.6,
+    "text": "250"
+  },
+  {
+    "x": 382.65126953125,
+    "y": 836.7,
+    "width": 14.34873046875,
+    "size": 8.6,
+    "text": "500"
+  },
+  {
+    "x": 377,
+    "y": 829,
+    "width": 19.368017578125,
+    "size": 8.3,
+    "text": "Miles"
+  },
+  {
+    "x": 406.0,
+    "y": 939,
+    "width": 34.90390625,
+    "size": 8.6,
+    "text": "Abr 2021"
+  },
+  {
+    "x": 529.208373235887,
+    "y": 939,
+    "width": 19.131640625,
+    "size": 8.6,
+    "text": "2023"
+  },
+  {
+    "x": 680.950308719758,
+    "y": 939,
+    "width": 19.131640625,
+    "size": 8.6,
+    "text": "2025"
+  },
+  {
+    "x": 762.61318359375,
+    "y": 939,
+    "width": 35.38681640625,
+    "size": 8.6,
+    "text": "Jun 2026"
+  },
+  {
+    "x": 42,
+    "y": 959,
+    "width": 509.1078125,
+    "size": 8.9,
+    "text": "Entrenamiento: ene 2009 a mar 2021. Prueba: abr 2021 a jun 2026. Evaluación retrospectiva, no proyección más allá de la base."
+  },
+  {
+    "x": 42,
+    "y": 973,
+    "width": 478.909521484375,
+    "size": 8.9,
+    "text": "Prophet gana 5 de 7 series y SARIMA 2. El desempeño de este corte no garantiza el futuro ni anticipa todos los choques."
+  },
+  {
+    "x": 42,
+    "y": 1000,
+    "width": 13.34765625,
+    "size": 12,
+    "text": "04"
+  },
+  {
+    "x": 70,
+    "y": 1000,
+    "width": 203.2130859375,
+    "size": 13.8,
+    "text": "Cinco decisiones para INGUAT"
+  },
+  {
+    "x": 42,
+    "y": 1024,
+    "width": 102.802734375,
+    "size": 10,
+    "text": "Anticipar temporadas"
+  },
+  {
+    "x": 42,
+    "y": 1038.0,
+    "width": 293.5060546875,
+    "size": 9.2,
+    "text": "Reforzar atención y transporte antes de diciembre; revisar marzo y julio."
+  },
+  {
+    "x": 42,
+    "y": 1062,
+    "width": 153.9453125,
+    "size": 10,
+    "text": "Coordinar la capacidad terrestre"
+  },
+  {
+    "x": 42,
+    "y": 1076.0,
+    "width": 317.05859375,
+    "size": 9.2,
+    "text": "Priorizar coordinación en pasos terrestres: concentran 59,1 % del acumulado."
+  },
+  {
+    "x": 42,
+    "y": 1100,
+    "width": 163.408203125,
+    "size": 10,
+    "text": "Preparar escenarios ante choques"
+  },
+  {
+    "x": 42,
+    "y": 1114.0,
+    "width": 310.428125,
+    "size": 9.2,
+    "text": "Acordar ajustes de capacidad y promoción frente a caídas como la de 2020."
+  },
+  {
+    "x": 439,
+    "y": 1024,
+    "width": 145.0732421875,
+    "size": 10,
+    "text": "Vigilar y diversificar mercados"
+  },
+  {
+    "x": 439,
+    "y": 1038.0,
+    "width": 318.055859375,
+    "size": 9.2,
+    "text": "Monitorear Centroamérica (71,3 %) y evaluar la respuesta de otros mercados."
+  },
+  {
+    "x": 439,
+    "y": 1062,
+    "width": 149.4873046875,
+    "size": 10,
+    "text": "Actualizar modelos y catálogos"
+  },
+  {
+    "x": 439,
+    "y": 1076.0,
+    "width": 264.8998046875,
+    "size": 9.2,
+    "text": "Reevaluar por serie y documentar el cambio de registro de 2023."
+  },
+  {
+    "x": 439,
+    "y": 1100.0,
+    "width": 341.541015625,
+    "size": 9.2,
+    "text": "2026 parcial y cambios de metodología deben acompañar cualquier lectura de"
+  },
+  {
+    "x": 439,
+    "y": 1111.6,
+    "width": 54.1982421875,
+    "size": 9.2,
+    "text": "crecimiento."
+  },
+  {
+    "x": 42,
+    "y": 1154,
+    "width": 412.399951171875,
+    "size": 8.1,
+    "text": "Fuente: Base de Migración 2009 a jun 2026, INGUAT/IGM. Uso exclusivamente académico; no son cifras oficiales."
+  },
+  {
+    "x": 42,
+    "y": 1166,
+    "width": 448.81489257812507,
+    "size": 7.9,
+    "text": "Elaboración con resultados del Laboratorio 1. Guatemala deja de reportarse como país desde 2023; no se interpreta como cero."
+  },
+  {
+    "x": 42,
+    "y": 1178.0,
+    "width": 122.92778320312499,
+    "size": 8.1,
+    "text": "Créditos: Equipo del Laboratorio 1"
+  }
+]

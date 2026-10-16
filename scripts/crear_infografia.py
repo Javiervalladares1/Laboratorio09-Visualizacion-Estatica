@@ -6,8 +6,10 @@ creditos.json. El SVG preserva texto y formas editables.
 """
 from pathlib import Path
 from html import escape
+from zipfile import ZipFile, ZIP_DEFLATED
 import json
 import math
+import xml.etree.ElementTree as ET
 import numpy as np
 import pandas as pd
 import pypdfium2 as pdfium
@@ -195,11 +197,11 @@ def draw(a):
     x,y,w,h=79,583,334,94
     grid(a,x,y,w,h,350000,[0,150000,300000])
     a.text(M,576,'Miles',8.4,MUTED)
-    months=['E','F','M','A','M','J','J','A','S','O','N','D']
+    months=['Ene','Feb','Mar','Abr','May','Jun','Jul','Ago','Sep','Oct','Nov','Dic']
     for i,(month,value) in enumerate(profile.items()):
         bx=x+i*w/12+4;bw=w/12-8;bh=value/350000*h
         a.rect(bx,y+h-bh,bw,bh,ORANGE if month in [3,7,12] else TEAL)
-        a.text(bx+bw/2,y+h+14,months[i],8.8,MUTED,align='center')
+        a.text(bx+bw/2,y+h+14,months[i],8.1,MUTED,align='center')
         if month in [3,7,12]:a.text(bx+bw/2,y+h-bh-6,fmt(value/1000),8.8,ORANGE,True,align='center')
     a.text(M,709,'Promedio 2009-2019. Marzo/abril: Semana Santa;',8.9,MUTED)
     a.text(M,722,'julio: bono 14; diciembre: fin de año. Contexto, no causalidad.',8.9,MUTED)
@@ -248,7 +250,7 @@ def draw(a):
     a.path(top+bottom[::-1],ORANGE_PALE,fill=ORANGE_PALE)
     plotline(a,pred.Real,x,y,w,h,ymax,NAVY,1.3)
     plotline(a,pred.Estimacion_Prophet,x,y,w,h,ymax,ORANGE,1.7)
-    for date,label in [('2021-04-01','Abr 2021'),('2023-01-01','2023'),('2024-07-01','2024'),('2026-06-01','Jun 2026')]:
+    for date,label in [('2021-04-01','Abr 2021'),('2023-01-01','2023'),('2025-01-01','2025'),('2026-06-01','Jun 2026')]:
         i=pred.index[pred.Fecha==pd.Timestamp(date)][0]
         align='left' if i==0 else 'right' if i==len(pred)-1 else 'center'
         a.text(xs[i],939,label,8.6,MUTED,align=align)
@@ -283,6 +285,28 @@ def main():
     page=doc[0];im=page.render(scale=2400/page.get_width()).to_pil().convert('RGB')
     im.save(OUT/'Infografia_Turismo_Guatemala.png',dpi=(205.25,205.25),optimize=True)
     assert im.width>=1200 and im.height>=2400
+    # HTML con texto independiente y una imagen local de los trazados. El ZIP
+    # incluye el recurso, para que los importadores no dependan de URLs externas.
+    editable=ROOT/'editable';editable.mkdir(exist_ok=True)
+    temp=ROOT/'tmp';temp.mkdir(exist_ok=True)
+    bg=Artwork(temp/'graficos_sin_texto.pdf',A3)
+    bg.text=lambda *args,**kwargs:None
+    draw(bg);bg.finish()
+    bgdoc=pdfium.PdfDocument(str(temp/'graficos_sin_texto.pdf'))
+    bgpage=bgdoc[0]
+    bgpage.render(scale=2400/bgpage.get_width()).to_pil().convert('RGB').save(editable/'graficos.png',optimize=True)
+    parts=['<!doctype html><html lang="es"><head><meta charset="utf-8"><title>Infografía del turismo en Guatemala</title><style>html,body{margin:0;padding:0;background:white} .page{position:relative;width:840px;height:1188px;background:white;overflow:hidden} .page p{position:absolute;margin:0;padding:0;white-space:pre;line-height:1;font-family:Arial,sans-serif}</style></head><body><section data-document-role="page" data-label="Turismo en Guatemala" class="page">',
+        '<img alt="Gráficos estadísticos originales" style="position:absolute;inset:0;width:840px;height:1188px" src="graficos.png">']
+    full=ET.parse(OUT/'Infografia_Turismo_Guatemala_Editable.svg').getroot()
+    for t in full:
+        if t.tag.split('}')[-1]!='text':continue
+        x=float(t.attrib['x']);y=float(t.attrib['y']);size=float(t.attrib['font-size'])
+        top=y-.8467*size
+        parts.append(f'<p style="left:{x}px;top:{top}px;font-size:{size}px;font-weight:{t.attrib["font-weight"]};color:{t.attrib["fill"]}">{escape(t.text or "")}</p>')
+    parts.append('</section></body></html>')
+    (editable/'index.html').write_text('\n'.join(parts),encoding='utf-8')
+    with ZipFile(OUT/'Infografia_Editable_Canva.zip','w',ZIP_DEFLATED) as z:
+        for name in ['index.html','graficos.png']:z.write(editable/name,name)
     print('PNG:',im.size,flush=True)
     print('Salidas:',OUT,flush=True)
 
