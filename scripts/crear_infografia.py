@@ -19,6 +19,7 @@ from reportlab.lib.colors import HexColor
 from reportlab.lib.pagesizes import A3
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
+from verificar_entrega import validate_data
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA, OUT = ROOT/'datos', ROOT/'salida'
@@ -121,11 +122,11 @@ class Artwork:
             svgpath.write_text('\n'.join(self.svg+['</svg>']),encoding='utf-8')
             (OUT/'verificacion_textos.json').write_text(json.dumps(self.text_records,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 
-series=pd.read_csv(DATA/'serie_total_mensual.csv',parse_dates=['Fecha']).set_index('Fecha').Ingresos
-profile=pd.read_csv(DATA/'perfil_mensual_2009_2019.csv').set_index('Mes').Promedio_ingresos
+series=pd.read_csv(DATA/'serie_total_mensual.csv',parse_dates=['Fecha']).set_index('Fecha').sort_index().Ingresos
+profile=pd.read_csv(DATA/'perfil_mensual_2009_2019.csv').set_index('Mes').sort_index().Promedio_ingresos
 models=pd.read_csv(DATA/'modelos_total.csv').sort_values('RMSE')
 evidence=pd.read_csv(DATA/'evidencia_series.csv')
-pred=pd.read_csv(DATA/'pronostico_prophet_intervalo95.csv',parse_dates=['Fecha'])
+pred=pd.read_csv(DATA/'pronostico_prophet_intervalo95.csv',parse_dates=['Fecha']).sort_values('Fecha').reset_index(drop=True)
 summary=json.loads((DATA/'resumen_lab1.json').read_text(encoding='utf-8'))
 meta=json.loads((DATA/'metadatos_intervalo.json').read_text(encoding='utf-8'))
 creditfile=ROOT/'creditos.json'
@@ -282,6 +283,7 @@ def draw(a):
     a.para(M,1178,author,756,8.1,NAVY)
 
 def main():
+    validate_data(ROOT)
     for name,size in [('Infografia_Turismo_Guatemala_A3.pdf',A3),('Infografia_Turismo_Guatemala_11x17.pdf',(11*72,17*72))]:
         a=Artwork(OUT/name,size);draw(a)
         a.finish(OUT/'Infografia_Turismo_Guatemala_Editable.svg' if 'A3' in name else None)
