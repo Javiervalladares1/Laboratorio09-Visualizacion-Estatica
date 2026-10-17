@@ -58,6 +58,19 @@ python scripts/verificar_entrega.py
 
 `scripts/preparar_datos.py --lab1 "RUTA/AL/LAB1"` permite extraer nuevamente los insumos desde `outputs/lab1_final` de otra copia del Laboratorio 1. Si faltan sus archivos originales, termina con un mensaje antes de sobrescribir datos. Para generar la infografía bastan los insumos agregados que ya contiene este repositorio; Prophet y CmdStanPy son opcionales.
 
+## Verificación
+
+`python scripts/verificar_entrega.py --solo-datos` comprueba los insumos sin exportaciones. El generador también ejecuta esta validación antes de escribir la pieza. Comprueba el calendario mensual completo, fechas únicas, alineación por fecha, valores finitos, MAE/RMSE de los seis modelos, perfil estacional, denominadores de participación y metadatos del intervalo. La verificación completa añade PNG, dimensiones y página única de ambos PDF, texto del SVG, documento de explicación y sincronía del ZIP editable.
+
+Las pruebas alteran únicamente copias temporales para comprobar que se detectan datos corruptos; también verifican que reordenar filas no desalinee las fechas:
+
+```bash
+python -m unittest discover -s tests -v
+python -O -m unittest discover -s tests -v
+```
+
+Los controles se mantienen activos con `python -O`. `salida/verificacion_entrega.json` registra errores o resultados y hashes de los insumos; su ejecución no certifica una inspección visual ni la aprobación académica. Los créditos vacíos y la actualización manual de Canva se señalan como pendientes.
+
 ## Créditos y colaboración
 
 Editar `creditos.json` para introducir los nombres reales y el número de grupo; después volver a ejecutar el generador. Cada elemento de `autores` puede contener nombre y carné. Actualmente el pie identifica únicamente al equipo del Laboratorio 1, porque no se proporcionó su nómina confirmada.
