@@ -131,9 +131,17 @@ def validate_data(root=ROOT):
                                for p in sorted(data.iterdir()) if p.suffix in {'.csv', '.json'}}}
 
 
-def validate_artifacts(root=ROOT):
+def validate_artifacts(root=ROOT, data_report=None):
     root = Path(root)
     out = root / 'salida'
+    report = data_report if data_report is not None else validate_data(root)
+    summary = json.loads((root / 'datos' / 'resumen_lab1.json').read_text(encoding='utf-8'))
+    required_text = ['Estimación', 'Intervalo nominal 95 %', 'Cinco decisiones para INGUAT', 'Fuente:', 'Créditos:', 'Jun 2026']
+    required_text.append(f"{summary['total_comparable'] / 1e6:.2f}".replace('.', ',') + ' M')
+    for field in ['caida_2020_vs_2019_pct', 'participacion_terrestre_pct', 'participacion_centroamerica_pct']:
+        required_text.append(f'{summary[field]:.1f}'.replace('.', ',') + ' %')
+    for metrics in report['modelos_verificados'].values():
+        required_text.extend(f'{value:,.0f}'.replace(',', ' ') for value in metrics.values())
     with Image.open(out / 'Infografia_Turismo_Guatemala.png') as im:
         im.verify()
     with Image.open(out / 'Infografia_Turismo_Guatemala.png') as im:
@@ -146,11 +154,20 @@ def validate_artifacts(root=ROOT):
         size = [float(pdf.pages[0].mediabox.width) / 72, float(pdf.pages[0].mediabox.height) / 72]
         close(size, expected, f'{name}: tamaño de página incorrecto.', atol=1e-5)
         text = pdf.pages[0].extract_text()
-        for phrase in ['Estimación', 'Intervalo nominal 95 %', 'Cinco decisiones para INGUAT', 'Fuente:', 'Créditos:']:
+        dash_patterns = [operands[0] for operands, operator in pdf.pages[0].get_contents().operations
+                         if operator == b'd']
+        require(any(len(pattern) >= 2 and all(float(length) > 0 for length in pattern)
+                    for pattern in dash_patterns), f'{name}: falta el trazo discontinuo con huecos visibles.')
+        for phrase in required_text:
             require(phrase in text, f'{name}: falta texto requerido: {phrase}.')
         pages[name] = {'paginas': 1, 'pulgadas': size}
     svg = ET.parse(out / 'Infografia_Turismo_Guatemala_Editable.svg').getroot()
     require(bool(svg.findall('{http://www.w3.org/2000/svg}text')), 'El SVG no contiene texto editable.')
+    svg_text = '\n'.join(node.text or '' for node in svg.findall('{http://www.w3.org/2000/svg}text'))
+    for phrase in required_text:
+        require(phrase in svg_text, f'SVG: falta el texto requerido: {phrase}.')
+    require(any(node.get('stroke-dasharray') for node in svg.findall('{http://www.w3.org/2000/svg}polyline')),
+            'El SVG debe distinguir la estimación con una línea discontinua.')
     with ZipFile(out / 'Infografia_Editable_Canva.zip') as archive:
         require(set(archive.namelist()) == {'index.html', 'graficos.png'}, 'Paquete editable incompleto.')
         require(archive.testzip() is None, 'Paquete editable corrupto.')
@@ -175,7 +192,7 @@ def main():
     try:
         result = validate_data()
         if not args.solo_datos:
-            result.update(validate_artifacts())
+            result.update(validate_artifacts(data_report=result))
     except (ValueError, OSError, KeyError, IndexError, ET.ParseError, BadZipFile, PdfReadError) as error:
         result = {'estado': 'error', 'detalle': str(error)}
     if not args.solo_datos:

@@ -224,11 +224,11 @@
     "text": "2023"
   },
   {
-    "x": 770.899531343451,
+    "x": 761.378759765625,
     "y": 472,
-    "width": 19.7990234375,
+    "width": 36.621240234375,
     "size": 8.9,
-    "text": "2026"
+    "text": "Jun 2026"
   },
   {
     "x": 559.3981980319229,
@@ -436,16 +436,16 @@
   {
     "x": 42,
     "y": 709,
-    "width": 198.385693359375,
+    "width": 232.508154296875,
     "size": 8.9,
-    "text": "Promedio 2009-2019. Marzo/abril: Semana Santa;"
+    "text": "Promedio 2009-2019. Borde: los tres promedios más altos."
   },
   {
     "x": 42,
     "y": 722,
-    "width": 243.424560546875,
+    "width": 245.41923828125,
     "size": 8.9,
-    "text": "julio: bono 14; diciembre: fin de año. Contexto, no causalidad."
+    "text": "Semana Santa, bono 14 y fin de año: contexto, no causalidad."
   },
   {
     "x": 448,
@@ -749,6 +749,13 @@
     "text": "Intervalo nominal 95 %"
   },
   {
+    "x": 377,
+    "y": 829,
+    "width": 19.368017578125,
+    "size": 8.3,
+    "text": "Miles"
+  },
+  {
     "x": 392.21708984375,
     "y": 924.7,
     "width": 4.78291015625,
@@ -768,13 +775,6 @@
     "width": 14.34873046875,
     "size": 8.6,
     "text": "500"
-  },
-  {
-    "x": 377,
-    "y": 829,
-    "width": 19.368017578125,
-    "size": 8.3,
-    "text": "Miles"
   },
   {
     "x": 406.0,

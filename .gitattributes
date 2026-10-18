@@ -1,0 +1,5 @@
+# Evitar que la conversión de saltos de línea de Windows altere exportaciones.
+*.pdf binary
+*.png binary
+*.zip binary
+*.docx binary
