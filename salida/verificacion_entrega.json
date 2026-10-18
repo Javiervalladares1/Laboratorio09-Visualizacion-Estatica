@@ -4,7 +4,48 @@
   "meses_prueba": 63,
   "MAE": 58032.59940990989,
   "RMSE": 69294.01007887268,
+  "modelos_verificados": {
+    "Prophet": {
+      "MAE": 58032.59940990989,
+      "RMSE": 69294.01007887268
+    },
+    "Red neuronal MLP": {
+      "MAE": 92800.99858313908,
+      "RMSE": 106663.66263265432
+    },
+    "SARIMA seleccionado": {
+      "MAE": 99203.65241350899,
+      "RMSE": 111214.9832616551
+    },
+    "Suavizamiento exponencial simple": {
+      "MAE": 129463.94758249958,
+      "RMSE": 140629.9305925727
+    },
+    "Holt-Winters": {
+      "MAE": 164531.19080190544,
+      "RMSE": 178440.94878287995
+    },
+    "Seasonal naive": {
+      "MAE": 207321.6373958207,
+      "RMSE": 219663.86935700072
+    }
+  },
   "reduccion_RMSE_vs_referencia_pct": 68.45452541571362,
+  "cobertura_observada_intervalo_prueba": 1.0,
+  "insumos_sha256": {
+    "cobertura_series.csv": "16cb366785763e44b7416132f3a0ced2fdfb341a81fad8a989d4a91676b3d577",
+    "evidencia_series.csv": "166c6dbe5969bb8c5196ba9fd1142f2e9fca87748bbabf745f2d3372c70e5f10",
+    "ganadores_por_serie.csv": "6164b7e00bf52d29ca6b81b2aba810bdd59ab319499b3b95cb5bdfffe1e009e7",
+    "metadatos_intervalo.json": "2bc48f0a38e1524d3923187b0960fbb36df2d51b773cfcdfe239c03a7da0a5ee",
+    "modelos_total.csv": "0e8d569711adf5f42f312fbb0fa539daa310344d1b5aa798326382880547c4fb",
+    "participaciones.csv": "c88f1e155ed58578c072032995b34dd3c3528ed389c3e5efdb6547af48a2528e",
+    "perfil_mensual_2009_2019.csv": "b35a31e951c1464b012bb03b5ea1b91088ad35bec4e5ad7fa31bc720693748c0",
+    "predicciones_total_lab1.csv": "8ad255f43066ec314891d84aa958161f86e5456eb5943908b7c3cb484adf9452",
+    "procedencia.json": "ae8c93bd70a4a7159be7f14865b7e8df4f48b5cb724c8003ff53c6c2d6540164",
+    "pronostico_prophet_intervalo95.csv": "5a366fccee717abe8c43e76e71ac1c532ed4041ed4c5c250193fb6d9100aa65f",
+    "resumen_lab1.json": "169c8882f03f143a7db2fe7589d56b6d3d5b9eedab6e8f876438d5af033e93ff",
+    "serie_total_mensual.csv": "0ff2fe793d84731b39db8c94e04b7f1962123f1f79f197d910e4674ec77e70f8"
+  },
   "png_pixeles": [
     2400,
     3394
@@ -25,7 +66,10 @@
       ]
     }
   },
-  "svg": "XML válido con texto y formas editables",
-  "revision_visual": "Realizada por inspección de la exportación final. Los controles automáticos no sustituyen esta revisión.",
-  "creditos_personales_completos": false
+  "svg": "XML válido con texto editable",
+  "revision_visual": "No evaluada por este script; requiere inspección de las exportaciones.",
+  "advertencias": [
+    "Completar autores y grupo confirmados en creditos.json antes de entregar.",
+    "La copia de Canva debe sincronizarse por separado tras regenerar los archivos locales."
+  ]
 }

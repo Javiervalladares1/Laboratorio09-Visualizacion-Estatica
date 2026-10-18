@@ -2,11 +2,11 @@
 
 Infografía de una página sobre los ingresos de visitantes a Guatemala entre enero de 2009 y junio de 2026. Utiliza los resultados del Laboratorio 1 y la definición `Turista + Excursionista`.
 
-**Repositorio privado:** [Laboratorio09 Visualización Estática](https://github.com/Javiervalladares1/Laboratorio09-Visualizacion-Estatica).
+**Repositorio del proyecto:** [Laboratorio09 Visualización Estática](https://github.com/Javiervalladares1/Laboratorio09-Visualizacion-Estatica).
 
 ![Infografía sobre turismo en Guatemala](salida/Infografia_Turismo_Guatemala.png)
 
-**Copia final editable en Canva:** [Abrir el diseño](https://www.canva.com/d/MRzncvdKKInArxS). La copia verificada tiene 134 elementos de texto editables y los trazados originales en una imagen de fondo de alta resolución. Para editar los trazados por separado, usar el SVG o modificar el script de Python.
+**Copia previa editable en Canva:** [Abrir el diseño](https://www.canva.com/d/MRzncvdKKInArxS). Los cambios de esta revisión están en los archivos locales; Canva requiere volver a importar el ZIP actualizado. El paquete mantiene texto separado de una imagen de fondo de alta resolución. Para editar los trazados por separado, usar el SVG o modificar el script de Python.
 
 ## Archivos de entrega
 
@@ -14,6 +14,7 @@ Infografía de una página sobre los ingresos de visitantes a Guatemala entre en
 - [Infografía digital en PNG](salida/Infografia_Turismo_Guatemala.png).
 - [Infografía para impresión en A3](salida/Infografia_Turismo_Guatemala_A3.pdf) y [alternativa de 11 × 17 pulgadas](salida/Infografia_Turismo_Guatemala_11x17.pdf).
 - [Script principal de Python](scripts/crear_infografia.py) y [dependencias](requirements.txt).
+- [Revisión técnica y visual del 19 de octubre](documento/Revision_y_Mejoras_2026-10-19.pdf) y [fuente editable](documento/Revision_y_Mejoras_2026-10-19.md). Complementa el documento del avance con los cambios de esta revisión y sus pendientes.
 
 Detalle de los formatos y fuentes editables:
 
@@ -75,7 +76,7 @@ Los controles se mantienen activos con `python -O`. `salida/verificacion_entrega
 
 Editar `creditos.json` para introducir los nombres reales y el número de grupo; después volver a ejecutar el generador. Cada elemento de `autores` puede contener nombre y carné. Actualmente el pie identifica únicamente al equipo del Laboratorio 1, porque no se proporcionó su nómina confirmada.
 
-El repositorio privado conserva los cambios realizados en código, SVG y exportaciones. Los commits generados por el asistente se identifican como Codex; no representan contribuciones de los demás integrantes. Para que el profesor y auxiliares puedan consultar los archivos y el historial, el propietario deberá concederles acceso al repositorio y al proyecto de Canva.
+El historial conserva los cambios realizados en código, SVG y exportaciones. Los tres commits iniciales figuran como Codex. Los commits de esta revisión usan la identidad Git configurada del solicitante, Ian Cumes, y reconocen la asistencia mediante `Co-authored-by: Codex <codex@local.invalid>`. Las fechas registran el momento real de ejecución; no acreditan aportes manuales ni participación de otros integrantes. El propietario debe conceder al profesor y auxiliares el acceso académico que corresponda.
 
 El diseño final de Canva está identificado en `enlaces.json`. Si se modifica el código y se vuelve a generar la pieza, esa operación actualiza los archivos locales; la copia de Canva debe volver a importarse o actualizarse por separado.
 
@@ -84,6 +85,10 @@ El diseño final de Canva está identificado en `enlaces.json`. Si se modifica e
 La pieza sigue el avance: cuatro tarjetas en dos filas y dos columnas; línea mensual con media móvil de 12 meses; columnas mensuales anteriores a la pandemia; cuadrante con los extremos de las siete series; tabla de MAE y RMSE para la serie total; estimación e intervalo de Prophet; cinco recomendaciones. El orden conecta contexto, calendario, estimación y decisiones.
 
 La paleta usa azul oscuro `#16324F`, verde azulado `#006D77` y acento naranja `#C05510`, con fondo blanco y neutros para texto secundario. Los colores sólidos tienen un contraste mayor a 4,5 a 1 frente al blanco. Las etiquetas acompañan los valores para no depender solo del color. El gráfico temporal conserva su orden cronológico; las columnas parten de cero; ambas series de pronóstico usan el mismo eje.
+
+La revisión cierra el eje histórico en junio de 2026, identifica los tres promedios mensuales más altos con borde y etiqueta, y distingue la estimación con línea discontinua. Los KPI, extremos del cuadrante y reducción de error se calculan desde los insumos validados. El PDF, SVG, PNG, HTML y ZIP se regeneran juntos. El PDF y ZIP usan metadatos deterministas para evitar diferencias causadas únicamente por la fecha de exportación; esto no modifica fechas de commits ni el historial del trabajo.
+
+Para reconstruir la nota técnica: `python scripts/crear_revision.py`. El documento del avance se conserva como antecedente con su fecha y contenido originales.
 
 ## Pronóstico e incertidumbre
 
