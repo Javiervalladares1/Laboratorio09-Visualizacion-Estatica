@@ -2,9 +2,20 @@
 
 Infografía de una página sobre los ingresos de visitantes a Guatemala entre enero de 2009 y junio de 2026. Utiliza los resultados del Laboratorio 1 y la definición `Turista + Excursionista`.
 
+**Repositorio privado:** [Laboratorio09 Visualización Estática](https://github.com/Javiervalladares1/Laboratorio09-Visualizacion-Estatica).
+
+![Infografía sobre turismo en Guatemala](salida/Infografia_Turismo_Guatemala.png)
+
 **Copia final editable en Canva:** [Abrir el diseño](https://www.canva.com/d/MRzncvdKKInArxS). La copia verificada tiene 134 elementos de texto editables y los trazados originales en una imagen de fondo de alta resolución. Para editar los trazados por separado, usar el SVG o modificar el script de Python.
 
 ## Archivos de entrega
+
+- [Documento de explicación del avance en PDF](documento/Explicacion_Diseno_Laboratorio09.pdf) y [versión editable en Word](documento/Explicacion_Diseno_Laboratorio09.docx). Se conservan las versiones elaboradas para el avance del 15 de octubre.
+- [Infografía digital en PNG](salida/Infografia_Turismo_Guatemala.png).
+- [Infografía para impresión en A3](salida/Infografia_Turismo_Guatemala_A3.pdf) y [alternativa de 11 × 17 pulgadas](salida/Infografia_Turismo_Guatemala_11x17.pdf).
+- [Script principal de Python](scripts/crear_infografia.py) y [dependencias](requirements.txt).
+
+Detalle de los formatos y fuentes editables:
 
 - `salida/Infografia_Turismo_Guatemala.png`: versión digital de 2400 × 3394 px. Cumple ambos mínimos indicados en la guía, 1200 px de ancho y 2400 px de alto.
 - `salida/Infografia_Turismo_Guatemala_A3.pdf`: una página A3 vertical, 297 × 420 mm, con gráficos y texto vectoriales.
@@ -39,7 +50,7 @@ python scripts/verificar_entrega.py
 
 Editar `creditos.json` para introducir los nombres reales y el número de grupo; después volver a ejecutar el generador. Cada elemento de `autores` puede contener nombre y carné. Actualmente el pie identifica únicamente al equipo del Laboratorio 1, porque no se proporcionó su nómina confirmada.
 
-El repositorio Git local conserva los cambios realizados en código, SVG y exportaciones. Los commits generados por el asistente se identifican como Codex; no representan contribuciones de los demás integrantes. El enlace del repositorio remoto y el enlace del diseño compartido deben corresponder al espacio real de trabajo del equipo. No se inventaron enlaces ni se publicó el material abiertamente.
+El repositorio privado conserva los cambios realizados en código, SVG y exportaciones. Los commits generados por el asistente se identifican como Codex; no representan contribuciones de los demás integrantes. Para que el profesor y auxiliares puedan consultar los archivos y el historial, el propietario deberá concederles acceso al repositorio y al proyecto de Canva.
 
 El diseño final de Canva está identificado en `enlaces.json`. Si se modifica el código y se vuelve a generar la pieza, esa operación actualiza los archivos locales; la copia de Canva debe volver a importarse o actualizarse por separado.
 
