@@ -1,0 +1,24 @@
+name: Verificación
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  pruebas:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Instalar fuentes libres
+        run: sudo apt-get update && sudo apt-get install -y fonts-liberation2 fonts-dejavu-core
+      - name: Instalar dependencias
+        # Prophet solo hace falta para volver a ajustar los intervalos.
+        run: pip install pandas numpy "reportlab>=4.0" "pypdfium2>=4.30" "pypdf>=5.0" "pillow>=10.0" "pytest>=8.0"
+      - name: Pruebas
+        run: python -m pytest -q
+      - name: Verificar entrega
+        run: python scripts/verificar_entrega.py
