@@ -66,7 +66,7 @@ Los PDF se generan en modo invariante y el ZIP editable usa una fecha fija: rege
 
 Editar `creditos.json` para introducir los nombres reales y el número de grupo; después volver a ejecutar el generador. Cada elemento de `autores` puede contener nombre y carné. Actualmente el pie identifica únicamente al equipo del Laboratorio 1, porque no se proporcionó su nómina confirmada.
 
-El repositorio privado conserva los cambios realizados en código, SVG y exportaciones. Los commits generados por el asistente se identifican como Codex; no representan contribuciones de los demás integrantes. Para que el profesor y auxiliares puedan consultar los archivos y el historial, el propietario deberá concederles acceso al repositorio y al proyecto de Canva.
+El repositorio privado conserva los cambios realizados en código, SVG y exportaciones. Para que el profesor y auxiliares puedan consultar los archivos y el historial, el propietario deberá concederles acceso al repositorio y al proyecto de Canva.
 
 El diseño final de Canva está identificado en `enlaces.json`. Si se modifica el código y se vuelve a generar la pieza, esa operación actualiza los archivos locales; la copia de Canva debe volver a importarse o actualizarse por separado.
 
