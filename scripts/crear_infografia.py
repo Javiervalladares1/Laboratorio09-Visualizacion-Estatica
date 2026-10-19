@@ -10,6 +10,7 @@ from zipfile import ZipFile, ZipInfo, ZIP_DEFLATED
 import json
 import math
 import os
+import tempfile
 import xml.etree.ElementTree as ET
 import numpy as np
 import pandas as pd
@@ -42,7 +43,8 @@ def register_fonts():
             pdfmetrics.registerFont(TTFont('Bold',str(bold)))
             return 'Arial'
     # Alternativa libre cuando Arial no está instalada.
-    for folder in [Path('/usr/share/fonts/truetype/liberation2'),Path('/usr/share/fonts/truetype/dejavu')]:
+    for folder in [Path('/usr/share/fonts/truetype/liberation2'),Path('/usr/share/fonts/truetype/liberation'),
+            Path('/usr/share/fonts/liberation-sans'),Path('/usr/share/fonts/truetype/dejavu'),Path('/usr/share/fonts/dejavu-sans-fonts')]:
         pairs=[('LiberationSans-Regular.ttf','LiberationSans-Bold.ttf'),('DejaVuSans.ttf','DejaVuSans-Bold.ttf')]
         for a,b in pairs:
             if (folder/a).exists() and (folder/b).exists():
@@ -134,6 +136,23 @@ meta=json.loads((DATA/'metadatos_intervalo.json').read_text(encoding='utf-8'))
 creditfile=ROOT/'creditos.json'
 credits=json.loads(creditfile.read_text(encoding='utf-8')) if creditfile.exists() else {'autores':[],'grupo':''}
 improvement=100*(1-models.loc[models.modelo=='Prophet','RMSE'].item()/models.loc[models.modelo=='Seasonal naive','RMSE'].item())
+
+def credit_line(data):
+    """Arma el pie de créditos. Cada autor puede ser texto o {nombre, carne}."""
+    names=[]
+    for author in data.get('autores',[]):
+        if isinstance(author,str):
+            name=author.strip()
+        elif isinstance(author,dict) and str(author.get('nombre','')).strip():
+            name=str(author['nombre']).strip()
+            carne=str(author.get('carne',author.get('carné',''))).strip()
+            if carne:name+=f' ({carne})'
+        else:
+            raise ValueError(f'creditos.json: autor sin nombre: {author!r}')
+        if name:names.append(name)
+    line='Créditos: '+(' · '.join(names) if names else 'Equipo del Laboratorio 1')
+    group=str(data.get('grupo','')).strip()
+    return line+(' · Grupo '+group if group else '')
 
 def short_series(name):
     category,label=name.split(' — ',1)
@@ -290,32 +309,35 @@ def draw(a):
     a.line(M,1140,W-M,1140,GRID,.8)
     a.text(M,1154,'Fuente: Base de Migración 2009 a jun 2026, INGUAT/IGM. Uso exclusivamente académico; no son cifras oficiales.',8.1,MUTED)
     a.text(M,1166,'Elaboración con resultados del Laboratorio 1. Guatemala deja de reportarse como país desde 2023; no se interpreta como cero.',7.9,MUTED)
-    names=credits.get('autores',[])
-    group=credits.get('grupo','')
-    author='Créditos: '+(' · '.join(names) if names else 'Equipo del Laboratorio 1')
-    if group:author+=' · Grupo '+str(group)
-    a.para(M,1178,author,756,8.1,NAVY)
+    a.para(M,1178,credit_line(credits),756,8.1,NAVY)
+
+def render_png(pdfpath,target_width=2400):
+    """Rasteriza la primera página y cierra el PDF (en Windows queda bloqueado si no)."""
+    doc=pdfium.PdfDocument(str(pdfpath))
+    try:
+        page=doc[0]
+        return page.render(scale=target_width/page.get_width()).to_pil().convert('RGB')
+    finally:
+        doc.close()
 
 def main():
     validate_data(ROOT)
     for name,size in [('Infografia_Turismo_Guatemala_A3.pdf',A3),('Infografia_Turismo_Guatemala_11x17.pdf',(11*72,17*72))]:
         a=Artwork(OUT/name,size);draw(a)
         a.finish(OUT/'Infografia_Turismo_Guatemala_Editable.svg' if 'A3' in name else None)
-    doc=pdfium.PdfDocument(str(OUT/'Infografia_Turismo_Guatemala_A3.pdf'))
-    page=doc[0];im=page.render(scale=2400/page.get_width()).to_pil().convert('RGB')
+    im=render_png(OUT/'Infografia_Turismo_Guatemala_A3.pdf')
     im.save(OUT/'Infografia_Turismo_Guatemala.png',dpi=(205.25,205.25),optimize=True)
     if im.width<1200 or im.height<2400:
         raise ValueError('La exportación PNG no cumple la resolución mínima.')
     # HTML con texto independiente y una imagen local de los trazados. El ZIP
     # incluye el recurso, para que los importadores no dependan de URLs externas.
     editable=ROOT/'editable';editable.mkdir(exist_ok=True)
-    temp=ROOT/'tmp';temp.mkdir(exist_ok=True)
-    bg=Artwork(temp/'graficos_sin_texto.pdf',A3)
-    bg.text=lambda *args,**kwargs:None
-    draw(bg);bg.finish()
-    bgdoc=pdfium.PdfDocument(str(temp/'graficos_sin_texto.pdf'))
-    bgpage=bgdoc[0]
-    bgpage.render(scale=2400/bgpage.get_width()).to_pil().convert('RGB').save(editable/'graficos.png',optimize=True)
+    # El PDF sin texto es intermedio; se crea en una carpeta temporal del sistema.
+    with tempfile.TemporaryDirectory() as temp:
+        bg=Artwork(Path(temp)/'graficos_sin_texto.pdf',A3)
+        bg.text=lambda *args,**kwargs:None
+        draw(bg);bg.finish()
+        render_png(Path(temp)/'graficos_sin_texto.pdf').save(editable/'graficos.png',optimize=True)
     parts=['<!doctype html><html lang="es"><head><meta charset="utf-8"><title>Infografía del turismo en Guatemala</title><style>html,body{margin:0;padding:0;background:white} .page{position:relative;width:840px;height:1188px;background:white;overflow:hidden} .page p{position:absolute;margin:0;padding:0;white-space:pre;line-height:1;font-family:Arial,sans-serif}</style></head><body><section data-document-role="page" data-label="Turismo en Guatemala" class="page">',
         '<img alt="Gráficos estadísticos originales" style="position:absolute;inset:0;width:840px;height:1188px" src="graficos.png">']
     full=ET.parse(OUT/'Infografia_Turismo_Guatemala_Editable.svg').getroot()

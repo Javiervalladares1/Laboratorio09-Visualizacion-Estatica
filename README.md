@@ -74,7 +74,16 @@ Los controles se mantienen activos con `python -O`. `salida/verificacion_entrega
 
 ## Créditos y colaboración
 
-Editar `creditos.json` para introducir los nombres reales y el número de grupo; después volver a ejecutar el generador. Cada elemento de `autores` puede contener nombre y carné. Actualmente el pie identifica únicamente al equipo del Laboratorio 1, porque no se proporcionó su nómina confirmada.
+Editar `creditos.json` para introducir los nombres reales y el número de grupo; después volver a ejecutar el generador. Cada elemento de `autores` puede ser un texto o un objeto con nombre y carné:
+
+```json
+{
+  "autores": [{"nombre": "Nombre Apellido", "carne": "21000"}, "Otro Integrante"],
+  "grupo": "3"
+}
+```
+
+El pie queda como `Créditos: Nombre Apellido (21000) · Otro Integrante · Grupo 3`. Un autor sin nombre detiene la generación con un mensaje. Actualmente el pie identifica únicamente al equipo del Laboratorio 1, porque no se proporcionó su nómina confirmada.
 
 El historial conserva los cambios realizados en código, SVG y exportaciones. Los tres commits iniciales figuran como Codex. Los commits de esta revisión usan la identidad Git configurada del solicitante, Ian Cumes, y reconocen la asistencia mediante `Co-authored-by: Codex <codex@local.invalid>`. Las fechas registran el momento real de ejecución; no acreditan aportes manuales ni participación de otros integrantes. El propietario debe conceder al profesor y auxiliares el acceso académico que corresponda.
 
