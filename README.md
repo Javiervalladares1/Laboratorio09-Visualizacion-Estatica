@@ -44,29 +44,13 @@ python scripts/crear_infografia.py
 python scripts/verificar_entrega.py
 ```
 
-También puede usarse el `Makefile`:
-
-```bash
-make instalar     # crea .venv e instala dependencias
-make todo         # pruebas, generación de la pieza y verificación
-make pruebas      # solo las pruebas de tests/
-```
-
-Los PDF se generan en modo invariante y el ZIP editable usa una fecha fija: regenerar la pieza sin cambiar datos ni código no produce diferencias en esos archivos.
-
-### Pruebas y verificación
-
-- `tests/` contiene pruebas con pytest sobre la coherencia de los insumos (serie completa, perfil mensual, participaciones, intervalo y metadatos) y sobre las utilidades de dibujo (formato numérico, escape en SVG, ajuste de párrafos y márgenes de toda la composición).
-- `scripts/verificar_entrega.py` revisa cifras, formatos y textos de las exportaciones. Informa todos los fallos encontrados y termina con código 1 si alguno no se cumple.
-- `.github/workflows/verificacion.yml` ejecuta ambos controles en GitHub Actions en cada push a `main` y en cada pull request.
-
 `scripts/preparar_datos.py` sirve para volver a extraer los insumos desde la carpeta original del Laboratorio 1. Requiere conservar la ubicación de esta carpeta dentro de Lab1 y sus archivos originales en `outputs/lab1_final`.
 
 ## Créditos y colaboración
 
 Editar `creditos.json` para introducir los nombres reales y el número de grupo; después volver a ejecutar el generador. Cada elemento de `autores` puede contener nombre y carné. Actualmente el pie identifica únicamente al equipo del Laboratorio 1, porque no se proporcionó su nómina confirmada.
 
-El repositorio privado conserva los cambios realizados en código, SVG y exportaciones. Para que el profesor y auxiliares puedan consultar los archivos y el historial, el propietario deberá concederles acceso al repositorio y al proyecto de Canva.
+El repositorio privado conserva los cambios realizados en código, SVG y exportaciones. Los commits generados por el asistente se identifican como Codex; no representan contribuciones de los demás integrantes. Para que el profesor y auxiliares puedan consultar los archivos y el historial, el propietario deberá concederles acceso al repositorio y al proyecto de Canva.
 
 El diseño final de Canva está identificado en `enlaces.json`. Si se modifica el código y se vuelve a generar la pieza, esa operación actualiza los archivos locales; la copia de Canva debe volver a importarse o actualizarse por separado.
 

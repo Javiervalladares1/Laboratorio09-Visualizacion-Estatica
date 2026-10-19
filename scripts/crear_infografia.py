@@ -6,7 +6,7 @@ creditos.json. El SVG preserva texto y formas editables.
 """
 from pathlib import Path
 from html import escape
-from zipfile import ZipFile, ZipInfo, ZIP_DEFLATED
+from zipfile import ZipFile, ZIP_DEFLATED
 import json
 import math
 import xml.etree.ElementTree as ET
@@ -56,7 +56,7 @@ def width(text,size=10,bold=False):
 
 class Artwork:
     def __init__(self,path,pagesize):
-        self.c=canvas.Canvas(str(path),pagesize=pagesize,pageCompression=1,invariant=1)
+        self.c=canvas.Canvas(str(path),pagesize=pagesize,pageCompression=1)
         self.c.setTitle('El turismo en Guatemala se mueve por temporadas y depende de sus vecinos')
         self.c.setSubject('Laboratorio 09 Visualización estática - datos académicos INGUAT IGM 2009 a junio 2026')
         self.c.setAuthor('Equipo del Laboratorio 1 - CC3084 UVG')
@@ -306,10 +306,7 @@ def main():
     parts.append('</section></body></html>')
     (editable/'index.html').write_text('\n'.join(parts),encoding='utf-8')
     with ZipFile(OUT/'Infografia_Editable_Canva.zip','w',ZIP_DEFLATED) as z:
-        # Fecha fija para que el ZIP no cambie si su contenido no cambia.
-        for name in ['index.html','graficos.png']:
-            info=ZipInfo(name,date_time=(2026,1,1,0,0,0));info.compress_type=ZIP_DEFLATED
-            z.writestr(info,(editable/name).read_bytes())
+        for name in ['index.html','graficos.png']:z.write(editable/name,name)
     print('PNG:',im.size,flush=True)
     print('Salidas:',OUT,flush=True)
 
